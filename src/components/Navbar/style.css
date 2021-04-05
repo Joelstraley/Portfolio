@@ -1,0 +1,11 @@
+#header {
+    color:rgba(8, 170, 245, 1);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+   /*  position: fixed; */
+    z-index: 1;
+    color: black;
+    background-color: black;
+  }  
