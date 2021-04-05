@@ -1,19 +1,42 @@
-import React from "react";
-import Container from "../../components/Container"
+import React, { Component } from "react";
+import Container from "../../components/Container";
+import ProjectCard from "../../components/ProjectCard";
+import Wrapper from "../../components/Wrapper";
+/* import Title from "./components/Title"; */
+import projects from "../../projects.json";
 
+class Portfolio extends Component {
+ /*  // Setting this.state.friends to the friends json array
+  state = {
+    friends
+  };
 
+  removeFriend = id => {
+    // Filter this.state.friends for friends with an id not equal to the id being removed
+    const friends = this.state.friends.filter(friend => friend.id !== id);
+    // Set this.state.friends equal to the new friends array
+    this.setState({ friends });
+  };
 
-function Portfolio() {
-  return (
-      <div></div>
-  /*   <Container fluid>
-     {/*  <Row>
-        <Col size="md-12">
-        
-        </Col>
-      </Row> 
-    </Container> */
-  );
+  // Map over this.state.friends and render a FriendCard component for each friend object
+  render() {
+    return (
+      <Wrapper>
+        <Title>Friends List</Title>
+        {this.state.friends.map(friend => (
+          <FriendCard
+            removeFriend={this.removeFriend}
+            id={friend.id}
+            key={friend.id}
+            name={friend.name}
+            image={friend.image}
+            occupation={friend.occupation}
+            location={friend.location}
+          />
+        ))}
+      </Wrapper>
+    );
+  } */
 }
 
 export default Portfolio;

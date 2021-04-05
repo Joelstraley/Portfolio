@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Helping Out",
+        "tech": "jQuery, Google APIs (Maps/Places/Geocoder), Semantic UI", 
+        "description": "The user is asked to Donate Food, Blood or Time then inputs their zip code to get results for charities near them.",
+        "website": "https://joelstraley.github.io/Project-1-Helping-Out/",
+        "github": "https://github.com/Joelstraley/Project-1-Helping-Out"
+    },
+    {
+        "id": 2,
+        "name": "Hashtag Goals",
+        "tech": "Node.js, Express, Sequelize, Passport, Bcrypt, Heroku", 
+        "description": "Node.js, Express, Sequelize, Passport, Bcrypt, Heroku",
+        "website": "https://apple-tart-97413.herokuapp.com/",
+        "github": "https://github.com/jacquelinerodney/project2"
+        },
+        {
+        "id": 3,
+        "name": "Eat A Burger",
+        "tech": "Node.js, Express, Handlebars, MySQL, Heroku", 
+        "description": "The Eat a Burger app lets the user Eat/Uneat and Create a burger",
+        "website": "https://pacific-everglades-73896.herokuapp.com/",
+        "github": "https://github.com/Joelstraley/Burger"
+        },
+        {
+        "id": 4,
+        "name": "Weather Dashboard",
+        "tech": "Ajax, OpenWeather API, jQuery, Bootstrap", 
+        "description": "The Weather Dashboard utilizes the Openweather API to display specific weather information based on an city submitted into the Search input.",
+        "website": "https://joelstraley.github.io/Weather-Dashboard/",
+        "github": "https://github.com/Joelstraley/Weather-Dashboard"
+        },
+        {
+        "id": 5,
+        "name": "Coding Quiz",
+        "tech": "Vanilla JavaScript, Bootstrap", 
+        "description": "A timed quiz consisting of 5 questions, populated randomly, on the subject of JavaScript.",
+        "website": "https://joelstraley.github.io/Code-Quiz/",
+        "github": "https://github.com/Joelstraley/Code-Quiz"
+        },
+        {
+        "id": 6,
+        "name": "Work Day Scheduler",
+        "tech": "Vanilla JavaScript, Days.js library", 
+        "description": "9am - 5pm scheduler with blocks highlighted by past, present and future. A user's input information is saved in local storage.",
+        "website": "https://joelstraley.github.io/Work-Day-Scheduler/",
+        "github": "https://github.com/Joelstraley/Work-Day-Scheduler"
+        }
+]
