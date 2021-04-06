@@ -49,6 +49,45 @@ body {
   .new-line {
     white-space: pre-line;
   }
+
+
+.wrapper {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+  }
+  
+  .container {
+    border: 20px black;
+    background-color: rgba(8, 170, 245, 0.7);
+    padding: 20px 20px;
+    align-self: center;
+    color: black;
+    flex-wrap: wrap;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.0px );
+  -webkit-backdrop-filter: blur( 11.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  /* background: rgba( 5, 156, 217, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 11.0px );
+  -webkit-backdrop-filter: blur( 11.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+  } 
+  
+  #bottom {
+    margin-left: auto;
+     margin-right: auto;
+     position: inherit;
+   }
+
+
+
+
+
   
 /*   a {
     color: black;
