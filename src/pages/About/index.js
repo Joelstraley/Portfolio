@@ -1,26 +1,27 @@
 import React from "react";
 import Background from "../../components/Background";
+import backgroundImage from "../../photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg"
 import Container from "../../components/Container";
 import Row from "../../components/Row";
 import Col from "../../components/Col/";
+import Title from "../../components/Title";
 import Headshot from "../../photos/about-me-headshot.jpg"
 
 
 
 function About() {
   return (
-       <Background className="row backgroundimg" backgroundImage="../../photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg">
+       <Background className="row backgroundimg" src={backgroundImage}>
+           
        <Container style={{ marginTop: 100 }}>
             <Row>
-              <Col size="md-12"></Col>
-          </Row>  
-          <Row>
               <Col size="md-12">
-                  <div className="headline">
-                      <h1>About Me</h1>
+              <div className="headline">
+
+                  <Title>About Me</Title>
                   </div>
               </Col>
-          </Row>
+          </Row>  
           <Row>
               <Col size="md-3">
                     <img src={Headshot} alt="Joel Straley Headshot" className="img-fluid rounded headshot"/>

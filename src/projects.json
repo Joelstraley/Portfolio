@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "Helping Out",
+        "image": "./photos/Helping Out-adjusted.png",
         "tech": "jQuery, Google APIs (Maps/Places/Geocoder), Semantic UI", 
         "description": "The user is asked to Donate Food, Blood or Time then inputs their zip code to get results for charities near them.",
         "website": "https://joelstraley.github.io/Project-1-Helping-Out/",
@@ -11,13 +12,14 @@
         "id": 2,
         "name": "Hashtag Goals",
         "tech": "Node.js, Express, Sequelize, Passport, Bcrypt, Heroku", 
-        "description": "Node.js, Express, Sequelize, Passport, Bcrypt, Heroku",
+        "description": "The user creates an account then chooses a goal and how many times a week they can dedicate to achieving their goal. A calendar populates a series of minor milestones at their requested frequency.",
         "website": "https://apple-tart-97413.herokuapp.com/",
         "github": "https://github.com/jacquelinerodney/project2"
         },
         {
         "id": 3,
         "name": "Eat A Burger",
+        "image": "src/photos/Burger App1.png",
         "tech": "Node.js, Express, Handlebars, MySQL, Heroku", 
         "description": "The Eat a Burger app lets the user Eat/Uneat and Create a burger",
         "website": "https://pacific-everglades-73896.herokuapp.com/",

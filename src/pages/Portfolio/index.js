@@ -1,42 +1,46 @@
 import React, { Component } from "react";
 import Container from "../../components/Container";
+import Background from "../../components/Background";
+import Row from "../../components/Row";
+import Col from "../../components/Col/";
+import Title from "../../components/Title";
 import ProjectCard from "../../components/ProjectCard";
 import Wrapper from "../../components/Wrapper";
-/* import Title from "./components/Title"; */
 import projects from "../../projects.json";
 
 class Portfolio extends Component {
- /*  // Setting this.state.friends to the friends json array
+  // Setting this.state.friends to the friends json array
   state = {
-    friends
-  };
-
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
+    projects
   };
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
-      <Wrapper>
-        <Title>Friends List</Title>
-        {this.state.friends.map(friend => (
-          <FriendCard
-            removeFriend={this.removeFriend}
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            image={friend.image}
-            occupation={friend.occupation}
-            location={friend.location}
+        <Background className="row backgroundimg" backgroundImage="../../photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg">
+             <Wrapper>
+        <Container style={{ marginTop: 50 }}>
+           <Row>
+        <Title>Projects</Title> 
+        {this.state.projects.map(project => (
+            <Col size="md-6">
+            <ProjectCard
+            id={project.id}
+            name={project.name}
+            tech={project.tech}
+            description={project.description}
+            website={project.website}
+            github={project.github}
           />
-        ))}
-      </Wrapper>
+             </Col>
+        ))};
+        </Row>
+            </Container>
+         </Wrapper>
+    </Background>
+    
     );
-  } */
+  }
 }
 
 export default Portfolio;

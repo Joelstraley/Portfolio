@@ -8,8 +8,8 @@ function Navbar() {
       <Link className="navbar-brand" id="header">
       <a href="https://networthpost.org/net-worth/joel-straley-net-worth/">Joel Straley</a>
       </Link>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">

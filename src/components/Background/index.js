@@ -1,8 +1,10 @@
 import React from "react";
+import backgroundImage from "../../photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg";
+
 
 function Background(props) {
   return (
-    <div className="hero text-center" style={{ backgroundImage: `url(${props.backgroundImage})` }}>
+    <div className="backgroundimg text-center" style={{ backgroundImage: `url(${props.backgroundImage})` }}>
       {props.children}
     </div>
   );
