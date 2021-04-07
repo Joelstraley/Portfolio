@@ -11,13 +11,11 @@ import Headshot from "../../photos/about-me-headshot.jpg";
 
 function About() {
   return (
-       <Background className="row backgroundimg" src={backgroundImage}>
-           
+       <Background className="row backgroundimg" src={backgroundImage}>   
        <Container style={{ marginTop: 100 }}>
             <Row>
               <Col size="md-12">
               <div className="headline">
-
                   <Title>About Me</Title>
                   </div>
               </Col>
