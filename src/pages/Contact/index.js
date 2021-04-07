@@ -21,7 +21,7 @@ function Contact() {
                   <input className="form-control" type="text" placeholder="Enter Name"/> 
                 </div>
                 <div className="form-group">
-                  <label for="Email">Email address</label>
+                  <label for="Email">Email</label>
                   <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
                   <small id="emailHelp" className="form-text text-dark">I promise not to share your email with your enemies.</small>
                 </div>

@@ -1,11 +1,11 @@
 import React from "react";
 import Background from "../../components/Background";
-import backgroundImage from "../../photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg"
+import backgroundImage from "../../photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg";
 import Container from "../../components/Container";
 import Row from "../../components/Row";
 import Col from "../../components/Col/";
 import Title from "../../components/Title";
-import Headshot from "../../photos/about-me-headshot.jpg"
+import Headshot from "../../photos/about-me-headshot.jpg";
 
 
 

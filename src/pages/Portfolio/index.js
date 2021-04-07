@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Container from "../../components/Container";
-import Background from "../../components/Background";
 import Row from "../../components/Row";
 import Col from "../../components/Col/";
 import Title from "../../components/Title";
@@ -17,7 +16,7 @@ class Portfolio extends Component {
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
-        <Background className="row backgroundimg" backgroundImage="../../photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg">
+  
              <Wrapper>
         <Container style={{ marginTop: 50 }}>
            <Row>
@@ -26,6 +25,7 @@ class Portfolio extends Component {
             <Col size="md-6">
             <ProjectCard
             id={project.id}
+            image={project.image}
             name={project.name}
             tech={project.tech}
             description={project.description}
@@ -33,11 +33,11 @@ class Portfolio extends Component {
             github={project.github}
           />
              </Col>
-        ))};
+        ))}
         </Row>
             </Container>
          </Wrapper>
-    </Background>
+
     
     );
   }
