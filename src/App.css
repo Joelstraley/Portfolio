@@ -1,97 +1,134 @@
+/* Template for all pages */
+
+
+#header {
+  color:rgba(8, 170, 245, 1);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
 body {
-    font-family: 'Josefin Sans', sans-serif;
-    padding-bottom: 20px;
-  }
-  
+  font-family: 'Josefin Sans', sans-serif;
+  padding-bottom: 20px;
+}
+
+.navbar {
+ /*  position: fixed; */
+  z-index: 1;
+  color: black;
+  background-color: black;
+}
+
 .backgroundimg {
-    background-size: cover;
-    background-repeat: repeat-x;
-    background-position: center;  
-    height: 200%;
-    width: 100%;
-    overflow: visible; 
-    margin: 0%;
-    vertical-align:bottom;
-}
-
-.moonsun {
-    text-align: right;
-    color:#06f0f0;
-}
-
  
-#footer {
-    color:rgba(8, 170, 245, 1);
-      font-family: 'Josefin Sans', sans-serif;
-  }
- 
-
-  #about {
-    text-align: left;
-    padding-top: 7px;
-    padding-left: auto;
-    margin-right: auto;
-  }
-  
-  .headshot {
-   
-      width: auto;
-      height: auto;
-      max-width: 90%;
-      max-height: 90%;
-  }
-  
-  .headline {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-  }
-
-  .new-line {
-    white-space: pre-line;
-  }
-
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 200%;
+  width: 100%;
+ overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+}
 
 .wrapper {
-    margin-left: 10vh;
-    margin-right: 10vh;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
-  }
-  
-  .container {
-    border: 20px black;
-    background-color: rgba(8, 170, 245, 0.7);
-    padding: 20px 20px;
-    align-self: center;
-    color: black;
-    flex-wrap: wrap;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 5.0px );
-  -webkit-backdrop-filter: blur( 11.0px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  /* background: rgba( 5, 156, 217, 0.15 );
+  margin-left: 10vh;
+  margin-right: 10vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
+.container {
+  border: 20px black;
+  background-color: rgba(8, 170, 245, 0.7);
+  padding: 20px 20px;
+  align-self: center;
+  color: black;
+  flex-wrap: wrap;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 11.0px );
-  -webkit-backdrop-filter: blur( 11.0px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 ); */
-  } 
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+  margin-left: auto;
+   margin-right: auto;
+   position: inherit;
+ }
+ 
+ #footer {
+   color:rgba(8, 170, 245, 1);
+     font-family: 'Josefin Sans', sans-serif;
+ }
+
+/* About me */
+
+#about {
+  text-align: left;
+  padding-top: 7px;
+  padding-left: auto;
+  margin-right: auto;
+}
+
+.headshot {
+
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.headline {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+  text-align: center;
+}
+
+.extURL {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
+  color: darkblue;
+}
+
+ #portfolio-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+} 
+
+.tech {
+  color: #181818; 
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+  text-align: right;
+  color:#06f0f0;
+}
+
+
   
-  #bottom {
-    margin-left: auto;
-     margin-right: auto;
-     position: inherit;
-   }
-
-
-
-
-
-  
-/*   a {
+ a {
     color: black;
-  } */
+  }  
   
   /* .App {
     text-align: center;

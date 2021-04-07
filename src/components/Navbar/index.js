@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <Link className="navbar-brand" id="header">
-      <a href="https://networthpost.org/net-worth/joel-straley-net-worth/">Joel Straley</a>
+      <a id="header" href="https://networthpost.org/net-worth/joel-straley-net-worth/">Joel Straley</a>
       </Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
           <span className="navbar-toggler-icon"></span>
