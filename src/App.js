@@ -16,10 +16,12 @@ function App() {
   <Background className="row backgroundimg" backgroundImage={backgroundImage} >
     <Router basename={`${process.env.PUBLIC_URL}/`}>   
       <Navbar />
+  
         <Wrapper>
           <Route exact path={["/", "/about"]} component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
+          
         </Wrapper>
         <Footer />
         </Router>
