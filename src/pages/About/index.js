@@ -8,7 +8,6 @@ import Title from "../../components/Title";
 import Headshot from "../../photos/about-me-headshot.jpg";
 
 
-
 function About() {
   return (
        <Background className="row backgroundimg" src={backgroundImage}>   
@@ -39,6 +38,7 @@ function About() {
                     <a href="tel:937-206-4970"> 
                     <i className="fas fa-phone-square fa-2x" style={{ margin: 10 }}></i></a>
                     <div className="new-line"></div>
+                    
                     <a href="JOEL STRALEY RESUME - 2021 - WEB DEV (1).pdf" download>Download PDF Resume</a>
                   </div>
               </Col>
