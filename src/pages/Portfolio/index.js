@@ -22,7 +22,7 @@ class Portfolio extends Component {
            <Row>
         <Title>Projects</Title> 
         {this.state.projects.map(project => (
-            <Col size="md-12">
+            <Col size="md-6  l-12 xl-12 xxl-12">
             <ProjectCard
             id={project.id}
             image={project.image}

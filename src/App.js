@@ -4,7 +4,9 @@ import About from "./pages/About/index";
 import Portfolio from "./pages/Portfolio/index";
 import Contact from "./pages/Contact/index";
 import Background from "../src/components/Background";
-import backgroundImage from "./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg";
+/* import backgroundImage from "./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg";
+ */
+import backgroundImage from "../src/photos/Asset_130.png";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
