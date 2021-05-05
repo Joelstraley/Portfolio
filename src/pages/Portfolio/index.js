@@ -18,7 +18,7 @@ class Portfolio extends Component {
     return (
   
              <Wrapper>
-        <Container style={{ marginTop: 50 }}>
+        <Container >
            <Row>
         <Title>Projects</Title> 
         {this.state.projects.map(project => (
