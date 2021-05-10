@@ -19,7 +19,7 @@ function About() {
             <Row>
               <Col size="md-12">
               <div className="headline">
-                  <Title>About Me 🤵</Title>
+                  <Title>About Me 👨‍💻</Title>
                   </div>
               </Col>
               {console.log(backgroundImage)}
@@ -48,6 +48,24 @@ function About() {
               </Col>
           </Row>
       </Container> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
       </Background>
       );
 }

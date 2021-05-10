@@ -1,18 +1,41 @@
 /* Template for all pages */
 
+body {    
+    font-family: 'Josefin Sans', sans-serif; 
+    padding-bottom: 20px;
+   /*  background-image: url("./photos/Asset\ 130.png");  */
+    background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: center;  
+    height: 100%;
+    width: 100%;
+    overflow: visible; 
+    margin: 0%;
+    vertical-align:bottom;
+    background-color:black;
+  }
+
+
 
 #header {
   color:rgba(8, 170, 245, 1);
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.col {
+  align-items: center;
+  justify-content: center;
 
- body {
-   display: flex;
-   font-family: 'Josefin Sans', sans-serif;
-} 
+}
 
+a:hover {
+  cursor: url("../src/photos/cursor.png");
+}
 
+/* .navbar {
+  margin-bottom: 1em;
+} */
 
 /* .backgroundimg {
   background-size: cover;
@@ -28,19 +51,20 @@
 .wrapper {
   margin-left: 10vh;
   margin-right: 10vh;
-  margin-top: 10vh;
+  margin-top: 8vh;
   margin-bottom: 10vh;
 }
 
 .container {
-  display: grid;
+  display: flex;
   gap: 1rem;
   border: 20px black;
   background-color: rgba(8, 170, 245, 0.7);
-  padding: 20px 20px;
+  padding: 20px 30px;
   align-self: center;
   color: black;
   padding-top: .5rem;
+  margin-top: 5rem;
   flex-wrap: wrap;
   box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
   backdrop-filter: blur( 5.0px );
@@ -66,28 +90,31 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ); */
  
  #footer {
    color:rgba(8, 170, 245, 1);
-     font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Josefin Sans', sans-serif;
  }
 
 /* About me */
 
 #about {
-  text-align: left;
-  padding-top: 7px;
+  text-align: center;
+  padding-top: 2em;
   padding-left: auto;
-  margin-right: auto;
+  margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 50vh;
-
 }
 
 .headshot {
     width: auto;
     height: auto;
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 95%;
+    max-height: 95%;
+   /*  display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: inherit;
 }
 
 .headline {
@@ -114,8 +141,16 @@ h2, h6 {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 200%;
+  height: auto;
 } 
+
+.portImg:hover {
+  transform: scale(1.1);
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-duration: 1s;
+}
 
 .personalLinks {
   text-align: center;
@@ -124,6 +159,23 @@ h2, h6 {
 
 .tech {
   color: #181818; 
+}
+
+/* .card:hover {
+  transform: scale(1.1) translateZ(0px);
+  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+ */
+
+/* Contact  */
+
+
+.form {
+  justify-self: center;
+
 }
 
 /* right-corner easter egg*/
@@ -139,15 +191,727 @@ h2, h6 {
     color: black;
   }  
 
-
+.backgroundimg {
+  background-size: cover;
+  overflow: hidden;
+}
 
 
 
 @media only screen and (max-width: 600px) {
-  .main-nav {
-      font-size: 0.5em;
-      padding: 0;
-  }
+/* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
+}
+
+@media only screen and (device-width: 768px) {
+ 
+  /* For general iPad layouts */
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 }
   
   /* .App {
@@ -197,6 +961,181 @@ h2, h6 {
 and (min-device-width: 320px) 
 and (max-device-width: 480px)
 and (-webkit-min-device-pixel-ratio: 2) {
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -206,6 +1145,181 @@ and (min-device-width: 320px)
 and (max-device-width: 480px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 }
 
 /* Landscape */
@@ -214,6 +1328,181 @@ and (min-device-width: 320px)
 and (max-device-width: 480px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape) {
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -224,6 +1513,181 @@ and (orientation: landscape) {
 and (min-device-width: 320px) 
 and (max-device-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2) {
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -233,6 +1697,181 @@ and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 }
 
 /* Landscape */
@@ -241,6 +1880,181 @@ and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape) {
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -251,6 +2065,181 @@ and (orientation: landscape) {
 and (min-device-width: 375px) 
 and (max-device-width: 667px) 
 and (-webkit-min-device-pixel-ratio: 2) { 
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -260,6 +2249,181 @@ and (min-device-width: 375px)
 and (max-device-width: 667px) 
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) { 
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -269,6 +2433,181 @@ and (min-device-width: 375px)
 and (max-device-width: 667px) 
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape) { 
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -279,6 +2618,181 @@ and (orientation: landscape) {
 and (min-device-width: 414px) 
 and (max-device-width: 736px) 
 and (-webkit-min-device-pixel-ratio: 3) { 
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -288,6 +2802,181 @@ and (min-device-width: 414px)
 and (max-device-width: 736px) 
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: portrait) { 
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -297,6 +2986,181 @@ and (min-device-width: 414px)
 and (max-device-width: 736px) 
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: landscape) { 
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -307,6 +3171,181 @@ and (orientation: landscape) {
 and (min-device-width: 375px) 
 and (max-device-width: 812px) 
 and (-webkit-min-device-pixel-ratio: 3) { 
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -316,6 +3355,181 @@ and (min-device-width: 375px)
 and (max-device-width: 812px) 
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: portrait) { 
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -325,6 +3539,181 @@ and (min-device-width: 375px)
 and (max-device-width: 812px) 
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: landscape) { 
+  /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
   
@@ -336,6 +3725,181 @@ and (orientation: landscape) {
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+    /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -345,6 +3909,181 @@ and (orientation: landscape) {
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
+    /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -354,6 +4093,181 @@ and (orientation: landscape) {
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
+    /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -364,6 +4278,181 @@ and (orientation: landscape) {
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2) {
+    /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -373,6 +4462,181 @@ and (orientation: landscape) {
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
+    /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -382,6 +4646,181 @@ and (orientation: landscape) {
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
+    /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -392,6 +4831,181 @@ and (orientation: landscape) {
   and (min-device-width: 834px) 
   and (max-device-width: 1112px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -403,6 +5017,181 @@ and (orientation: landscape) {
   and (max-device-width: 834px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
+    /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -414,6 +5203,181 @@ and (orientation: landscape) {
   and (max-device-width: 1112px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
+    /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -424,6 +5388,181 @@ and (orientation: landscape) {
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -435,6 +5574,181 @@ and (orientation: landscape) {
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
+    /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -446,6 +5760,181 @@ and (orientation: landscape) {
   and (max-device-width: 1366px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
+    /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 
 }
 
@@ -454,6 +5943,182 @@ and (orientation: landscape) {
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
+
+    /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 }
 
 /* ----------- Retina Screens ----------- */
@@ -462,5 +6127,181 @@ and (orientation: landscape) {
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
+
+    /* Template for all pages */
+
+body {    
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+  overflow: visible; 
+  margin: 0%;
+  vertical-align:bottom;
+  background-color:black;
+}
+
+#header {
+color:rgba(8, 170, 245, 1);
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+
+} 
+
+a:hover {
+cursor: url("../src/photos/cursor.png");
+}
+
+/* .backgroundimg {
+background-size: cover;
+background-repeat: repeat-x;
+background-position: center;  
+height: 100vh;
+width: 100wh;
+overflow: visible; 
+margin: 0%;
+vertical-align:bottom;
+} */
+
+.wrapper {
+margin-left: 10vh;
+margin-right: 10vh;
+margin-top: 8vh;
+margin-bottom: 10vh;
+}
+
+.container {
+display: grid;
+gap: 1rem;
+border: 20px black;
+background-color: rgba(8, 170, 245, 0.7);
+padding: 20px 20px;
+align-self: center;
+color: black;
+padding-top: .5rem;
+flex-wrap: wrap;
+box-shadow: 0 8px 32px 0 rgba(45, 55, 202, 0.37);
+backdrop-filter: blur( 5.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items: center;
+justify-content: center;
+
+/* background: rgba( 5, 156, 217, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+} 
+
+#bottom {
+margin-left: auto;
+ margin-right: auto;
+ position: inherit;
+}
+
+#footer {
+ color:rgba(8, 170, 245, 1);
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+/* About me */
+
+#about {
+text-align: center;
+padding-top: 2em;
+padding-left: auto;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50vh;
+}
+
+.headshot {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.headline {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/* Portfolio  */
+
+h2, h6 {
+text-align: center;
+}
+
+.extURL {
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+color: darkblue;
+}
+
+#portfolio-img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 200%;
+height: auto;
+} 
+
+.personalLinks {
+text-align: center;
+position: inherit;
+}
+
+.tech {
+color: #181818; 
+}
+
+
+/* Contact  */
+
+
+.form {
+justify-self: center;
+
+}
+
+/* right-corner easter egg*/
+
+.moonsun {
+text-align: right;
+color:#06f0f0;
+}
+
+
+
+a {
+  color: black;
+}  
+
+.backgroundimg {
+background-size: cover;
+overflow: hidden;
+}
 }
 

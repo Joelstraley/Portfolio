@@ -14,8 +14,8 @@ function Contact() {
         <Title></Title>
         <Col size="md-12">
         <section>
-              <form>
-                <h2>Contact</h2>
+              <form className="form">
+                <h2>Contact 📫</h2>
                 <div className="form-group">
                   <label for="Name">Name</label>
                   <input className="form-control" type="text" placeholder="Enter Name"/> 

@@ -22,7 +22,7 @@
         "name": "Eat A Burger",
         "image": "photos/Burger App- adjusted.png",
         "tech": "Node.js, Express, Handlebars, MySQL, Heroku", 
-        "description": "The Eat a Burger app lets the user Eat/Uneat and Create a burger",
+        "description": "The Eat a Burger app lets the user Eat/Uneat or Create a burger",
         "website": "https://pacific-everglades-73896.herokuapp.com/",
         "github": "https://github.com/Joelstraley/Burger"
         },

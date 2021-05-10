@@ -10,15 +10,20 @@
   }
   
   .img-container {
-    height: 100%;
+    width: 100%;
+    height: auto;
     overflow: hidden;
     text-align: center;
     background:#6CADDC;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-duration: 1s;
   }
 
   .card > .img-container > img {
     position: relative;
     width: 100%;
+   
   }
   
   .card > .content {

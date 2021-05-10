@@ -4,7 +4,7 @@ import "./style.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
       <Link className="navbar-brand" id="header">
       <a id="header" href="https://networthpost.org/net-worth/joel-straley-net-worth/">Joel Straley</a>
       </Link>

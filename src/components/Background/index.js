@@ -7,6 +7,7 @@ function Background(props) {
 /*     <div className="text-center" /* style={{ backgroundImage: `url(${props.backgroundImage})`  }}> */
      <div>
       {props.children}
+      
     </div>
   );
 }
