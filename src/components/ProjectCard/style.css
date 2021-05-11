@@ -7,6 +7,8 @@
     width: 25em;
     box-shadow: 0 3px 6px rgb(19, 92, 141), 0 3px 6px #999;
     text-align: left;
+    border: 1px solid #bbb;
+    transition: all 0.3s linear;
   }
   
   .img-container {

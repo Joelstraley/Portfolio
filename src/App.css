@@ -173,9 +173,16 @@ h2, h6 {
 /* Contact  */
 
 
-.form {
+.contactForm {
+  display: flex;
+  padding: 10px;
   justify-self: center;
+  align-items: center;
 
+}
+
+.form {
+  margin: 10px;
 }
 
 /* right-corner easter egg*/
