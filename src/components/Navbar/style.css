@@ -1,12 +1,14 @@
 #header {
-    color:rgba(8, 170, 245, 1);
+    /* color:rgba(8, 170, 245, 1); */
+    color: #06EFB1;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .navbar {
     display: flex;
     z-index: 1;
-    color: black;
+    /* color: black; */
+    color: #06EFB1;
     background-color: black;
     width: 100%;
     margin-left: auto;
