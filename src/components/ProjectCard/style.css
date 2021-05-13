@@ -1,6 +1,6 @@
 .card {
     display: flex;
-    background: #fff;
+    background-color: rgba(245, 210, 8, 0.89); 
     border-radius: 2px;
     height: 25em;
     margin: 1rem;

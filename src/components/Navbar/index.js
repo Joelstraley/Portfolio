@@ -1,4 +1,5 @@
 import React from "react";
+import js from "../../photos/javascript_logo.png";
 import { Link } from "react-router-dom";
 import "./style.css";
 
@@ -6,7 +7,8 @@ function Navbar() {
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
       <Link className="navbar-brand" id="header">
-      <a id="header" href="https://networthpost.org/net-worth/joel-straley-net-worth/">Joel Straley</a>
+    
+      <a id="header" href="https://networthpost.org/net-worth/joel-straley-net-worth/"><img src={js} alt={js} className="headerImg"></img>Joel Straley</a>
       </Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
           <span className="navbar-toggler-icon"></span>

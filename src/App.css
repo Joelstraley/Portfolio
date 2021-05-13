@@ -23,6 +23,12 @@ body {
    color:rgba(8, 170, 245, 1);
 /*   color: #06EFB1; */
   font-family: 'Josefin Sans', sans-serif;
+/*   font-family: neuatra;*/
+}
+
+.headerImg{ 
+  width: 10%;
+  height: 10%;
 }
 
 .col {
