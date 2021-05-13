@@ -133,7 +133,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 
 p {
-  color:rgba(8, 170, 245, 1); 
+  color: #AC8351;
   text-shadow: rgb(1, 14, 20, 1);
 }
 
@@ -175,9 +175,6 @@ h2, h6 {
   color: #181818; 
 }
 
-.content { 
-  
-}
 
 /* .card:hover {
   transform: scale(1.1) translateZ(0px);
@@ -203,6 +200,11 @@ h2, h6 {
   margin: 10px;
 }
 
+small {
+  color: #00A376;
+}
+
+
 /* right-corner easter egg*/
 
 .moonsun {
@@ -215,6 +217,14 @@ h2, h6 {
  a {
     color: black;
   }  
+
+  .social {
+    color: rgba(8, 170, 245, 0.596);
+  }
+
+  .social:hover {
+    color: rgb(1, 173, 253);
+  }
 
 .backgroundimg {
   background-size: cover;
