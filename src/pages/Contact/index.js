@@ -40,6 +40,7 @@ function Contact() {
                   </form>
                   </div>
 
+
 {/*              <form className="form"> 
                 <h2>Contact 📫</h2>
                  <Mailchimp
