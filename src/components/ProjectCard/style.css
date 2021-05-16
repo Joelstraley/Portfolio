@@ -9,8 +9,12 @@
     text-align: left;
     border: 1px solid #bbb;
     transition: all 0.3s linear;
+    box-sizing: border-box;
+    -webkit-transition: box-shadow 200ms ease,-webkit-transform 200ms ease;
+    transition: box-shadow 200ms ease,transform 200ms ease;
   }
   
+
   .img-container {
     width: 100%;
     height: auto;
@@ -42,6 +46,6 @@
   .card > .content > ul > li {
     margin-top: 18px;
   }
-  
+
 
   
