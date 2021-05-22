@@ -136,6 +136,9 @@ p {
   text-shadow: rgb(1, 14, 20, 1);
 }
 
+.toolbox {
+  text-align: center;
+}
 
 
 /* Portfolio  */
