@@ -15,7 +15,7 @@ Screenshot:
 ![alt text](https://github.com/Joelstraley/React-Portfolio/blob/master/public/React%20Portfolio%20-%20About%20Me.png?raw=true)
 
 ## <a name="Technologies">Technologies:</a>
-React, React-router, Bootstrap, deployed on gh-pages
+React, React-router, Bootstrap, deployed on Heroku
 
 ## <a name="Questions">Questions</a>
 For questions please reach out to [github.com/JoelStraley](github.com/JoelStraley) 
