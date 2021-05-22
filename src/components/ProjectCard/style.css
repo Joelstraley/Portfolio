@@ -1,6 +1,7 @@
 .card {
     display: flex;
-    background-color: #00A376; 
+    flex-direction: column-reverse;
+    background-color: #07efb1ce; 
     border-radius: 2px;
     height: 25em;
     margin: 1rem;

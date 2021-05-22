@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./pages/About/index";
 import Portfolio from "./pages/Portfolio/index";
 import Contact from "./pages/Contact/index";
+import Single from "./pages/SinglePage/index";
 import Background from "../src/components/Background";
 import backgroundImage from "./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg";
 
@@ -23,6 +24,7 @@ function App() {
           <Route exact path={["/", "/about",]} component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/single" component={Single} />
         </Wrapper>
         <Footer />
         </Router>

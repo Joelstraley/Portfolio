@@ -10,7 +10,7 @@ import Title from "../../components/Title";
 function Contact() {
   return (
     <div>
-      <Container>
+     
         <Row>
           <Title></Title>
           <Col size="md-12">
@@ -91,7 +91,7 @@ function Contact() {
             </section>
           </Col>
         </Row>
-      </Container>
+     
     </div>
   );
 }

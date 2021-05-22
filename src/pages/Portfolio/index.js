@@ -18,8 +18,8 @@ class Portfolio extends Component {
     return (
 
       <Wrapper>
-        <Container >
-          <Row>
+        
+        
             <Title>Projects 👨‍💻</Title>
             {this.state.projects.map(project => (
               <Col size="col-md-6 col-lg-12 col-xxl-12">
@@ -35,8 +35,8 @@ class Portfolio extends Component {
                 />
               </Col>
             ))}
-          </Row>
-        </Container>
+         
+     
       </Wrapper>
 
 
