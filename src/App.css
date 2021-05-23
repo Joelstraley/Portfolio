@@ -138,8 +138,14 @@ p {
 
 .toolbox {
   text-align: center;
+  align-content: center;
+  display: inline-flexbox;
+  flex-wrap: wrap;
 }
 
+img {
+  padding: 2px;
+}
 
 /* Portfolio  */
 
