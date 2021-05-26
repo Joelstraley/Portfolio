@@ -4,8 +4,8 @@ import React from "react";
 
 function ContactEl(props) {
   return (
-                <div className="mx-auto personalLinks">
-                    <h1>Contact 📫</h1>
+                <div className="mx-auto personalLinks" id="contact">
+                    <h1 className="title">Contact 📫</h1>
                     <a href="https://www.linkedin.com/in/joel-straley-559aab97/" target="_blank" rel="noreferrer">
                     <i className="fab fa-linkedin fa-2x social" style={{ margin: ".2rem" }}>  </i></a>
                     <a href="https://twitter.com/joelstraley" target="_blank" rel="noreferrer">

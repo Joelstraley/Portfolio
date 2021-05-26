@@ -1,11 +1,46 @@
-import React from "react";
+import React, { Component } from "react";
 import js from "../../photos/javascript_logo.png";
 import { Link } from "react-router-dom";
+import classnames from "classnames";
 import "./style.css";
 
-function Navbar() {
+export default class Navbar extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      prevScrollpos: window.pageYOffset,
+      visible: true
+    };
+  }
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+  
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
+
+  handleScroll = () => {
+    const { prevScrollpos } = this.state;
+  
+    const currentScrollPos = window.pageYOffset;
+    const visible = prevScrollpos > currentScrollPos;
+  
+    this.setState({
+      prevScrollpos: currentScrollPos,
+      visible
+    });
+  };
+
+render() {
   return (
-    <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
+    <nav className={classnames("navbar fixed-top navbar-expand-lg navbar-dark", {
+      "navbar--hidden": !this.state.visible
+    })}
+    >
       <Link className="navbar-brand" id="header">
     
       <a id="header" href="https://networthpost.org/net-worth/joel-straley-net-worth/" target="_blank" rel="noreferrer"><img src={js} alt={js} className="headerImg"></img>Joel Straley</a>
@@ -17,7 +52,7 @@ function Navbar() {
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <Link
-              to="/"
+              to="#headline"
               className={
                 window.location.pathname === "/" || window.location.pathname === "/about"
                   ? "nav-link active"
@@ -29,25 +64,34 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
-              to="/portfolio"
+              to="#projects"
               className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
             >
               Portfolio
             </Link>
+            </li>
+          <li className="nav-item">
+            <Link
+              to="#toolbox"
+              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+            >
+              Tools
+            </Link>
           </li>
           <li className="nav-item">
             <Link
-              to="/contact"
+              to="#contact"
               className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
             >
               Contact
             </Link>
           </li>
+  
         </ul>
       </div>
     </nav>
     
   );
 }
+}
 
-export default Navbar;

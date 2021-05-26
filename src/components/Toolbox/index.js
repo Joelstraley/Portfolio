@@ -7,8 +7,8 @@ function Toolbox(props) {
   return (
    
       <Row>
-      <div className="toolbox">
-        <h1 className="toolbox">Toolbox &ensp;🧰 </h1>
+      <div className="toolbox title" id="toolbox">
+        <h1 className="toolbox">Toolbox&ensp;🧰 </h1>
         <img src="https://github.com/devicons/devicon/raw/master/icons/html5/html5-original.svg" alt="HTML logo" width="50" height="50" />
         <img src="https://github.com/devicons/devicon/raw/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50" height="50" />
         <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="50" height="50" />
@@ -17,6 +17,7 @@ function Toolbox(props) {
         <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/nodejs/nodejs-original-wordmark.svg" alt="NodeJS logo" width="50" height="50" />
         <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/npm/npm-original-wordmark.svg" alt="NPM logo" width="50" height="50" />
         <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/mongodb/mongodb-plain-wordmark.svg" alt="MongoDB logo" width="50" height="50" />
+        <br></br>
         <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/mysql/mysql-original-wordmark.svg" alt="MySQL logo" width="50" height="50" />
         <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL logo" width="50" height="50" />
         <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/react/react-original-wordmark.svg" alt="React logo" width="50" height="50" />

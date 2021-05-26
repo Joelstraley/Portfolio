@@ -21,10 +21,10 @@ function App() {
     <Router basename={`${process.env.PUBLIC_URL}/`}>   
       <Navbar />
         <Wrapper>
-          <Route exact path={["/", "/about",]} component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path={["/", "/about", "*"]} component={Single} />
+   {/*        <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/single" component={Single} />
+          <Route exact path="/single" component={Single} /> */}
         </Wrapper>
         <Footer />
         </Router>

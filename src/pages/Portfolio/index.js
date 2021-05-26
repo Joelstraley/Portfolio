@@ -16,13 +16,10 @@ class Portfolio extends Component {
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
-
-      <Wrapper>
-        
-        
+        <div className="projects" id="projects">
             <Title>Projects 👨‍💻</Title>
             {this.state.projects.map(project => (
-              <Col size="col-md-6 col-lg-12 col-xxl-12">
+             /*  <Col size="col-lg-12 col-xxl-12"> */
                 <ProjectCard
                   a={project.website}
                   id={project.id}
@@ -33,13 +30,9 @@ class Portfolio extends Component {
                   website={project.website}
                   github={project.github}
                 />
-              </Col>
+            /*   </Col> */
             ))}
-         
-     
-      </Wrapper>
-
-
+ </div>
     );
   }
 }

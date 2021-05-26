@@ -20,17 +20,17 @@ function SinglePage() {
        <Background className="row backgroundimg" src={backgroundImage}>   
         <Container>
           <About></About>
-          <Col size="md-6">
-           <Row>
+          <Col size="md-10">
+        
             <Portfolio></Portfolio>
-          </Row>
+           
           </Col>
-          <Col size="md-6">
+          <Col size="md-10">
           <Row>
             <Toolbox></Toolbox>
             </Row>
             </Col>
-            <Col size="md-6">
+            <Col size="md-10">
           <Row>
             <ContactEl></ContactEl>
             </Row>

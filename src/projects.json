@@ -10,24 +10,15 @@
     },
     {
         "id": 2,
-        "name": "Comedy Stream",
-        "image": "photos/ComedyStream-Main.png",
-        "tech": "React, Node.js, Express, MongoDB, Tailwind.css, Fuse.js, Days.js, Passport, Bcrypt, JSON Web Token, Heroku",
-        "description": "Comedy Stream is a hub for all online live comedy events. Users can create an account to add new shows.",
-        "website": "https://comedy-stream.herokuapp.com/",
-        "github": "https://github.com/Joelstraley/Project-3-Improv-Coders"
-    },
-    {
-        "id": 3,
         "name": "Eat A Burger",
         "image": "photos/Burger App- adjusted.png",
         "tech": "Node.js, Express, Handlebars, MySQL, Heroku",
-        "description": "The Eat a Burger app lets the user Eat/Uneat or Create a burger",
+        "description": "A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Follows an MVC design pattern to use Node and MySQL to query and route data, and Handlebars to generate the HTML.",
         "website": "https://pacific-everglades-73896.herokuapp.com/",
         "github": "https://github.com/Joelstraley/Burger"
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Weather Dashboard",
         "image": "photos/WeatherDashboard.png",
         "tech": "Ajax, OpenWeather API, jQuery, Bootstrap",
@@ -36,19 +27,28 @@
         "github": "https://github.com/Joelstraley/Weather-Dashboard"
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "Helping Out",
         "image": "photos/Helping Out-adjusted.png",
         "tech": "jQuery, Google APIs (Maps/Places/Geocoder), Semantic UI",
-        "description": "(Needs updated API KEY) The user is asked to Donate Food, Blood or Time then inputs their zip code to get results for charities near them.",
+        "description": "The user is asked to Donate Food, Blood or Time then inputs their zip code to get results for charities near them. These can be saved to their Favorites.",
         "website": "https://joelstraley.github.io/Project-1-Helping-Out/",
         "github": "https://github.com/Joelstraley/Project-1-Helping-Out"
+    },
+    {
+        "id": 5,
+        "name": "Comedy Stream",
+        "image": "photos/ComedyStream-Main.png",
+        "tech": "React, Node.js, Express, MongoDB, Tailwind.css, Fuse.js, Days.js, Passport, Bcrypt, JSON Web Token, Heroku",
+        "description": "Comedy Stream is a hub for all online live comedy events. Users can create an account to add new shows.",
+        "website": "https://comedy-stream.herokuapp.com/",
+        "github": "https://github.com/Joelstraley/Project-3-Improv-Coders"
     },
     {
         "id": 6,
         "name": "Work Day Scheduler",
         "image": "photos/Work Day Scheduler.png",
-        "tech": "Vanilla JavaScript, Days.js",
+        "tech": "jQuery, Days.js",
         "description": "9am - 5pm scheduler with blocks highlighted by past, present and future. A user's input information is saved in local storage.",
         "website": "https://joelstraley.github.io/Work-Day-Scheduler/",
         "github": "https://github.com/Joelstraley/Work-Day-Scheduler"

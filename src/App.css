@@ -41,6 +41,7 @@ a:hover {
   cursor: url("../src/photos/cursor.png");
 }
 
+
 /* .navbar {
   margin-bottom: 1em;
 } */
@@ -65,7 +66,7 @@ a:hover {
 
 .container {
   display: flex;
-  flex-wrap:inherit;
+  flex-wrap: wrap;
   gap: 1rem;
   border: 20px black;
 /*   background-color: rgba(8, 170, 245, 0.7); */
@@ -83,6 +84,7 @@ a:hover {
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   align-items: center;
   justify-content: center;
+  grid-auto-rows: 100px;
   /* background: rgba( 5, 156, 217, 0.15 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 11.0px );
@@ -134,6 +136,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 p {
   color: #b88649;
   text-shadow: rgb(1, 14, 20, 1);
+  align-content: center;
+  justify-content: center;
 }
 
 .toolbox {
@@ -148,6 +152,12 @@ img {
 }
 
 /* Portfolio  */
+
+.projects {
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
 
 h2, h6 {
   text-align: center;
@@ -226,12 +236,17 @@ small {
     color: black;
   }  
 
+  a:hover {
+    text-decoration: none;
+  }
+
   .social {
-    color: rgba(8, 170, 245, 0.596);
+    color: rgba(1, 173, 253, 0.788);
   }
 
   .social:hover {
-    color: rgb(1, 173, 253);
+    color: 
+    rgba(8, 170, 245, 0.596);
   }
 
 .backgroundimg {
