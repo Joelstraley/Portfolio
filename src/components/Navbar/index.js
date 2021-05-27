@@ -37,7 +37,7 @@ export default class Navbar extends Component {
 
 render() {
   return (
-    <nav className={classnames("navbar fixed-top navbar-expand-lg navbar-dark", {
+    <nav className={classnames("navbar fixed-top navbar-expand navbar-expand-xsm navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-dark", {
       "navbar--hidden": !this.state.visible
     })}
     >
