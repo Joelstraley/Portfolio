@@ -25,7 +25,7 @@ function About() {
               {console.log(backgroundImage)}
           </Row>  
           <Row>
-              <Col size="md-4">
+              <Col size="md-4" className="imgHeadshot">
                     <img src={Headshot} alt="Joel Straley Headshot" className="img-fluid rounded headshot"/>
               </Col>
               <Col size="md-8" >
