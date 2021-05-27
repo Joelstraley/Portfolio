@@ -42,7 +42,6 @@ render() {
     })}
     >
       <Link className="navbar-brand" id="header">
-    
       <a id="header" href="https://networthpost.org/net-worth/joel-straley-net-worth/" target="_blank" rel="noreferrer"><img src={js} alt={js} className="headerImg"></img>Joel Straley</a>
       </Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -86,8 +85,11 @@ render() {
               Contact
             </Link>
           </li>
+          
   
         </ul>
+
+
       </div>
     </nav>
     

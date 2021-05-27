@@ -16,7 +16,7 @@ function Toolbox(props) {
         <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/mongodb/mongodb-plain-wordmark.svg" alt="MongoDB logo" width="50" height="50" />
         <br></br>
         <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap logo" width="50" height="50" /> 
-        <img src="https://camo.githubusercontent.com/eab4e3fe8ddae86bac8e286b490019fa69a2f57daf01ffeb38d24b2bb32d7e1c/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f7461696c77696e646373732e737667" alt="Tailwind logo" width="30" height="30" />
+        <img src="https://camo.githubusercontent.com/eab4e3fe8ddae86bac8e286b490019fa69a2f57daf01ffeb38d24b2bb32d7e1c/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f7461696c77696e646373732e737667" alt="Tailwind logo" width="50" height="50" />
         <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/mysql/mysql-original-wordmark.svg" alt="MySQL logo" width="50" height="50" />
         <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL logo" width="50" height="50" />
         <img src="https://cdn.filestackcontent.com/YO2eS6E7QmwNbjzGrNZz" alt="Sequelize" width="50" height="50" />        

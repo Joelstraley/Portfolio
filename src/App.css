@@ -1,20 +1,40 @@
 /* Template for all pages */
+html {
+  --scrollbarBG: #181B48;
+  --thumbBG: rgba(8, 170, 245, 1);
+}
 
 body {    
-    font-family: 'Josefin Sans', sans-serif; 
-    padding-bottom: 20px;
-   /*  background-image: url("./photos/Asset\ 130.png");  */
-    background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
-    background-size: cover;
-    background-repeat: repeat-x;
-    background-position: center;  
-    height: 100%;
-    width: 100%;
-  /*   overflow: visible;  */
-    vertical-align:bottom;
-    background-color:black;
-  }
+  font-family: 'Josefin Sans', sans-serif; 
+  padding-bottom: 20px;
+  /*  background-image: url("./photos/Asset\ 130.png");  */
+  background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: center;  
+  height: 100%;
+  width: 100%;
+/*   overflow: visible;  */
+ 
+  overflow:auto;
+  vertical-align:bottom;
+  background-color:black;
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
 
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
 
 
 #header {

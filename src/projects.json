@@ -5,8 +5,8 @@
         "image": "photos/Hashtag Goals.png",
         "tech": "Node.js, Express, MySQL, Sequelize, Handlebars, Semantic UI, Passport, Bcrypt, Heroku",
         "description": "The user creates an account then chooses a goal and how many times a week they can dedicate to achieving their goal. A calendar populates a series of minor milestones at their requested frequency.",
-        "website": "https://apple-tart-97413.herokuapp.com/",
-        "github": "https://github.com/jacquelinerodney/project2"
+        "website": "https://hashtag-goals.herokuapp.com/",
+        "github": "https://github.com/Joelstraley/Hashtag-Goals"
     },
     {
         "id": 2,
