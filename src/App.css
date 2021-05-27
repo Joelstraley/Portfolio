@@ -37,10 +37,6 @@ body {
 
 }
 
-a:hover {
-  cursor: url("../src/photos/cursor.png");
-}
-
 
 /* .navbar {
   margin-bottom: 1em;
@@ -71,7 +67,7 @@ a:hover {
   border: 20px black;
 /*   background-color: rgba(8, 170, 245, 0.7); */
   background-color: #181B48;
-  color: #07EFB2;
+  color: rgba(8, 170, 245, 1);
   padding: 20px 30px;
   align-self: center;
   padding-top: .5rem;
@@ -134,17 +130,27 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 
 p {
-  color: #b88649;
+  color: #e0cb27; 
   text-shadow: rgb(1, 14, 20, 1);
   align-content: center;
   justify-content: center;
 }
 
 .toolbox {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-self: center;
+  align-items: center;
   text-align: center;
   align-content: center;
-  display: inline-flexbox;
-  flex-wrap: wrap;
+}
+
+.contactForm {
+  display: flex;
+  padding: 10px;
+  justify-self: center;
+  align-items: center;
 }
 
 img {
@@ -211,7 +217,6 @@ h2, h6 {
   padding: 10px;
   justify-self: center;
   align-items: center;
-
 }
 
 .form {
@@ -238,15 +243,16 @@ small {
 
   a:hover {
     text-decoration: none;
+    cursor: url("../src/photos/cursor.png");
   }
 
   .social {
-    color: rgba(1, 173, 253, 0.788);
-  }
+    color: rgba(6, 239, 177, 0.753);
+  } 
 
   .social:hover {
     color: 
-    rgba(8, 170, 245, 0.596);
+    rgba(6, 239, 177, 0.596);
   }
 
 .backgroundimg {
