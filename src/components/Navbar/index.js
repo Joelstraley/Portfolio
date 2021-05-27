@@ -44,7 +44,7 @@ render() {
       <Link className="navbar-brand" id="header">
       <a id="header" href="https://networthpost.org/net-worth/joel-straley-net-worth/" target="_blank" rel="noreferrer"><img src={js} alt={js} className="headerImg"></img>Joel Straley</a>
       </Link>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+     {/*  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
           <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
@@ -66,7 +66,7 @@ render() {
               to="#projects"
               className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
             >
-              Portfolio
+              Projects
             </Link>
             </li>
           <li className="nav-item">
@@ -84,13 +84,13 @@ render() {
             >
               Contact
             </Link>
-          </li>
+          </li> 
           
   
         </ul>
 
 
-      </div>
+      </div>*/}
     </nav>
     
   );

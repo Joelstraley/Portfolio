@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Hashtag Goals",
-        "image": "photos/Hashtag Goals.png",
+        "image": "photos/Hashtag-Goals-adjusted.png",
         "tech": "Node.js, Express, MySQL, Sequelize, Handlebars, Semantic UI, Passport, Bcrypt, Heroku",
         "description": "The user creates an account then chooses a goal and how many times a week they can dedicate to achieving their goal. A calendar populates a series of minor milestones at their requested frequency.",
         "website": "https://hashtag-goals.herokuapp.com/",

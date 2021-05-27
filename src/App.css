@@ -49,9 +49,6 @@ body::-webkit-scrollbar-thumb {
   display: grid;
 }
 
-.fixedNav {
-
-}
 
 .headerImg{ 
   width: 2.5em;
@@ -147,7 +144,7 @@ p {
   color: #e0cb27; 
   text-shadow: rgb(1, 14, 20, 1);
   align-content: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 .headshot {
