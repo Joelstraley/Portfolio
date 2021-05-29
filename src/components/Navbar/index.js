@@ -85,11 +85,8 @@ render() {
               Contact
             </Link>
           </li> 
-          
-  
+
         </ul>
-
-
       </div>*/}
     </nav>
     
