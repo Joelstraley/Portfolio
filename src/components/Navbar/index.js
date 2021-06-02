@@ -12,10 +12,11 @@ export default class Navbar extends Component {
       prevScrollpos: window.pageYOffset,
       visible: true
     };
+    
   }
 
   componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll)
   }
   
   componentWillUnmount() {
@@ -89,6 +90,7 @@ render() {
         </ul>
       </div>*/}
     </nav>
+
   );
 }
 }

@@ -4,6 +4,7 @@ html {
   --thumbBG: rgba(8, 170, 245, 1);
 }
 
+
 body {    
   font-family: 'Josefin Sans', sans-serif; 
   padding-bottom: 20px;
@@ -21,6 +22,10 @@ body {
   background-color:black;
   scrollbar-width: thin;
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body:not(.loaded) #slider img {
+  display:none;
 }
 
 body::-webkit-scrollbar {
