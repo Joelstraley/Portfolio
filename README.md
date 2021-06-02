@@ -1,9 +1,9 @@
 # React Portfolio [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Description
-Personal portfolio redisigned using React.
+Personal portfolio redesigned using React.
 
-[View Live Site](https://joelstraley.github.io/React-Portfolio/)
+[View Live Site](https://joel-straley.herokuapp.com/)
 ## Table of Contents
 
 * [Technologies](#Technologies)

@@ -35,7 +35,7 @@ function Contact() {
                 <div aria-hidden="true">
                   <input type="text" name="b_3d1ca8922aef1c0d21e536517_75caa397d7" tabindex="-1" value="" />
                 </div>
-                  {/* /* <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" /> 
+                  {/* /* <div className="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" /> 
                   </div> */}
                   </form>
                   </div>

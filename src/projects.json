@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Hashtag Goals",
-        "image": "photos/Hashtag-Goals-adjusted.png",
+        "image": "./photos/Hashtag-Goals-adjusted.png",
         "tech": "Node.js, Express, MySQL, Sequelize, Handlebars, Semantic UI, Passport, Bcrypt, Heroku",
         "description": "The user creates an account then chooses a goal and how many times a week they can dedicate to achieving their goal. A calendar populates a series of minor milestones at their requested frequency.",
         "website": "https://hashtag-goals.herokuapp.com/",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "Eat A Burger",
-        "image": "photos/Burger App- adjusted.png",
+        "image": "./photos/Burger App- adjusted.png",
         "tech": "Node.js, Express, Handlebars, MySQL, Heroku",
         "description": "A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Follows an MVC design pattern to use Node and MySQL to query and route data, and Handlebars to generate the HTML.",
         "website": "https://pacific-everglades-73896.herokuapp.com/",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "name": "Weather Dashboard",
-        "image": "photos/WeatherDashboard.png",
+        "image": "./photos/WeatherDashboard.png",
         "tech": "Ajax, OpenWeather API, jQuery, Bootstrap",
         "description": "The Weather Dashboard utilizes the Openweather API to display specific weather information based on an city submitted into the Search input.",
         "website": "https://joelstraley.github.io/Weather-Dashboard/",
