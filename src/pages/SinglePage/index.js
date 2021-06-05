@@ -21,9 +21,7 @@ function SinglePage() {
         <Container>
           <About></About>
           <Col size="md-10">
-        
             <Portfolio></Portfolio>
-           
           </Col>
           <Col size="md-10">
           <Row>
