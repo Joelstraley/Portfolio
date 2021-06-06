@@ -3,7 +3,11 @@ import "./style.css";
 
 function ProjectCard(props) { 
   console.log(props.image)
+  //main-wrapper
+  //card = wrapper
+  //img-containet = img-wrapper
   return (
+    <div class="main-wrapper">
     <a href={props.website}>
     <div className="card" >
       <div className="img-container">
@@ -18,6 +22,7 @@ function ProjectCard(props) {
       </div>
     </div>
     </a>
+    </div>
   );
 }
 
