@@ -143,4 +143,32 @@
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
 
+    * {
+      box-sizing: none;
+    }
+  
+  .info {
+    display: flex;
+  }
+
+  .main-wrapper {
+    display: flex;
+    object-fit: cover;
+  
+  }
+
+  .card {
+    display: flex;
+  }
+
+  .img-container{
+    size: 1vh;
+    object-fit: cover;
+    overflow: none;
+  }
+
+  h2, h6 {
+    margin: 1rem auto;
+  }    
+
 }
