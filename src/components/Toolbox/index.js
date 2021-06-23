@@ -5,7 +5,7 @@ function Toolbox(props) {
   return (
   
       <div className="title mx-auto personalLinks">
-        <h1 className="title">Toolbox&ensp;🧰 </h1>
+        <h1 className="title" id="toolbox">Toolbox&ensp;🧰 </h1>
         <div >
         <img src="https://github.com/devicons/devicon/raw/master/icons/html5/html5-original.svg" alt="HTML logo" width="50" height="50" />
         <img src="https://github.com/devicons/devicon/raw/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50" height="50" />

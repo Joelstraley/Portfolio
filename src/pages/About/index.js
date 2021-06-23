@@ -18,7 +18,7 @@ function About() {
     
             <Row>
               <Col size="md-12">
-              <div className="headline">
+              <div className="headline" id="About">
                   <Title>About Me 🤵</Title>
                   </div>
               </Col> 
