@@ -17,8 +17,8 @@ function About() {
        <Background className="row backgroundimg" src={backgroundImage}>   
     
             <Row>
-              <Col size="md-12">
-              <div className="headline" id="About">
+              <Col size="md-12" id="About">
+              <div className="headline">
                   <Title>About Me 🤵</Title>
                   </div>
               </Col> 

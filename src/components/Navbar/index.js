@@ -75,43 +75,21 @@ render() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <Link
-              to="#headline"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/about"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              About
-            </Link>
+          <a href="#about">About&ensp;</a>
           </li>
           <li className="nav-item">
-            <Link
-              to="#projects"
-              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-            >
-              Projects
-            </Link>
+          <a href="#projects">Projects&ensp;</a>
             </li>
           <li className="nav-item">
-            <Link
-              to="#toolbox"
-              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-            >
-              Tools
-            </Link>
+          <a href="#toolbox">Tools&ensp;</a>
           </li>
           <li className="nav-item">
-            <Link
-              to="#contact"
-              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-            >
-              Contact
-            </Link>
+            <a href="#contact">Contact</a>
           </li> 
 
         </ul>
+
+        </div>
          
     </nav>
     
