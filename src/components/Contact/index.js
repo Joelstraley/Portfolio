@@ -19,7 +19,7 @@ function ContactEl(props) {
                     <a href="tel:937-206-4970"> 
                     <i className="fas fa-phone-square fa-2x social" style={{ margin: ".2rem" }}></i></a>
                     <div className="new-line"></div>
-                    <a className="social" href="Joel Straley - Resume - 2021.pdf" download>Download My Resume</a>
+                    <a className="social" href="Joel Straley - Resume - 2021.pdf" target="_blank">Download My Resume</a>
                 </div>
           );
         }
