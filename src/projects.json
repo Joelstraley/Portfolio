@@ -1,6 +1,16 @@
 [
     {
         "id": 1,
+        "name": "DinnerFlix",
+        "image": "./photos/dinnerflix-app.png",
+        "tech": "React, GraphQL, AstraDB, Cassandra, Netlify, ",
+        "description": "A ReactJS Netflix clone, with ONLY the movie 'My Dinner with Andre', running on Astra DB leveraging a GraphQL API.",
+        "website": "https://dinnerflix.netlify.app/",
+        "github": "https://github.com/Joelstraley/DinnerFlix"
+        
+    },
+    {
+        "id": 2,
         "name": "Hashtag Goals",
         "image": "./photos/Hashtag-Goals-adjusted.png",
         "tech": "Node.js, Express, MySQL, Sequelize, Handlebars, Semantic UI, Passport, Bcrypt, Heroku",
@@ -9,22 +19,13 @@
         "github": "https://github.com/Joelstraley/Hashtag-Goals"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Eat A Burger",
         "image": "./photos/Burger App- adjusted.png",
         "tech": "Node.js, Express, Handlebars, MySQL, Heroku",
         "description": "A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Follows an MVC design pattern to use Node and MySQL to query and route data, and Handlebars to generate the HTML.",
         "website": "https://pacific-everglades-73896.herokuapp.com/",
         "github": "https://github.com/Joelstraley/Burger"
-    },
-    {
-        "id": 3,
-        "name": "Weather Dashboard",
-        "image": "./photos/WeatherDashboard.png",
-        "tech": "Ajax, OpenWeather API, jQuery, Bootstrap",
-        "description": "The Weather Dashboard utilizes the Openweather API to display specific weather information based on an city submitted into the Search input.",
-        "website": "https://joelstraley.github.io/Weather-Dashboard/",
-        "github": "https://github.com/Joelstraley/Weather-Dashboard"
     },
     {
         "id": 4,
@@ -46,11 +47,11 @@
     },
     {
         "id": 6,
-        "name": "Work Day Scheduler",
-        "image": "photos/Work Day Scheduler.png",
-        "tech": "jQuery, Days.js",
-        "description": "9am - 5pm scheduler with blocks highlighted by past, present and future. A user's input information is saved in local storage.",
-        "website": "https://joelstraley.github.io/Work-Day-Scheduler/",
-        "github": "https://github.com/Joelstraley/Work-Day-Scheduler"
+        "name": "Weather Dashboard",
+        "image": "./photos/WeatherDashboard.png",
+        "tech": "Ajax, OpenWeather API, jQuery, Bootstrap",
+        "description": "The Weather Dashboard utilizes the Openweather API to display specific weather information based on an city submitted into the Search input.",
+        "website": "https://joelstraley.github.io/Weather-Dashboard/",
+        "github": "https://github.com/Joelstraley/Weather-Dashboard"
     }
 ]
