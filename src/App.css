@@ -274,10 +274,10 @@ small {
     color: black;
   }  
 
-  a:hover {
+  a:hover{
    /*  color:rgba(8, 170, 245, 1); */
     text-decoration: none;
-    cursor:url(./photos/about-me-headshot.jpg); 
+    cursor:url(./photos/headshot-cursor.png), pointer; 
   }
 
   .social {
