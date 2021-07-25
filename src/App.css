@@ -272,6 +272,8 @@ small {
   
  a {
     color: black;
+    text-decoration: none;
+    cursor:url(./photos/headshot-cursor.png), pointer; 
   }  
 
   a:hover{

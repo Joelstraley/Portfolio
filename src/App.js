@@ -1,8 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import About from "./pages/About/index";
-import Portfolio from "./pages/Portfolio/index";
-import Contact from "./pages/Contact/index";
 import Single from "./pages/SinglePage/index";
 import Background from "../src/components/Background";
 import backgroundImage from "./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg";
