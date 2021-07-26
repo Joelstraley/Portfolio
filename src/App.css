@@ -319,9 +319,11 @@ h2 {
   margin: .5em;
 }
 
-#toolbox{
-  break-after: auto;
+.title {
+  font-size: 1.5em;
 }
+
+
 }
 
 
