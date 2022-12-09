@@ -1,40 +1,32 @@
-import React, { Component } from "react";
-import Container from "../../components/Container";
-import Row from "../../components/Row";
-import Col from "../../components/Col/";
-import Title from "../../components/Title";
-import ProjectCard from "../../components/ProjectCard";
-import Wrapper from "../../components/Wrapper";
-import projects from "../../projects.json";
+import React, { Component } from 'react'
+import Title from '../../components/Title'
+import ProjectCard from '../../components/ProjectCard'
+import projects from '../../projects.json'
 
 class Portfolio extends Component {
-  // Setting this.state.friends to the friends json array
   state = {
-    projects
-  };
+    projects,
+  }
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
-        <div className="projects" id="projects">
-            <Title>Projects 👨‍💻</Title>
-            {this.state.projects.map(project => (
-             /*  <Col size="col-lg-12 col-xxl-12"> */
-                <ProjectCard
-                  a={project.website}
-                  id={project.id}
-                  image={project.image}
-                  name={project.name}
-                  tech={project.tech}
-                  description={project.description}
-                  website={project.website}
-                  github={project.github}
-                />
-            /*   </Col> */
-            ))}
- </div>
-    );
+      <div className="projects" id="projects">
+        <Title>Projects 👨‍💻</Title>
+        {this.state.projects.map((project) => (
+          <ProjectCard
+            a={project.website}
+            id={project.id}
+            image={project.image}
+            name={project.name}
+            tech={project.tech}
+            description={project.description}
+            website={project.website}
+            github={project.github}
+          />
+        ))}
+      </div>
+    )
   }
 }
 
-export default Portfolio;
+export default Portfolio

@@ -4,7 +4,7 @@
         "name": "DinnerFlix",
         "image": "./photos/dinnerflix-app.png",
         "tech": "React, GraphQL, AstraDB, Cassandra, Netlify",
-        "description": "A ReactJS Netflix clone, with ONLY the movie 'My Dinner with Andre', running on Astra DB leveraging a GraphQL API.",
+        "description": "A React app Netflix clone, with ONLY the movie 'My Dinner with Andre', running an Astra DB API with GraphQL.",
         "website": "https://dinnerflix.netlify.app/",
         "github": "https://github.com/Joelstraley/DinnerFlix"
         
