@@ -73,6 +73,12 @@ function Toolbox(props) {
           height="50"
         />
         <img
+          src="https://devicons.railway.app/i/graphql.svg"
+          alt="GraphQL logo"
+          width="50"
+          height="50"
+        />
+        <img
           src="https://icongr.am/devicon/php-original.svg?size=128&color=currentColor"
           alt="php"
           width="50"

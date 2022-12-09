@@ -1,5 +1,4 @@
 import Background from '../../components/Background'
-import backgroundImage from '../../photos/Asset_130.png'
 import Container from '../../components/Container'
 import Row from '../../components/Row'
 import Col from '../../components/Col/'
@@ -10,7 +9,7 @@ import Toolbox from '../../components/Toolbox'
 
 function SinglePage() {
   return (
-    <Background className="row backgroundimg" src={backgroundImage}>
+    <Background className="row">
       <Container>
         <About></About>
         <Col size="md-10">

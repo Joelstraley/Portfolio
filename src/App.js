@@ -11,10 +11,7 @@ import './App.css'
 function App() {
   return (
     <div>
-      <Background
-        className="row backgroundimg"
-        backgroundImage={backgroundImage}
-      >
+      <Background className="row" backgroundImage={backgroundImage}>
         <Router basename={`${process.env.PUBLIC_URL}/`}>
           <Navbar />
           <Wrapper>

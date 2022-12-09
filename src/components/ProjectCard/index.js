@@ -1,9 +1,6 @@
 import './style.css'
 
 function ProjectCard(props) {
-  //main-wrapper
-  //card = wrapper
-  //img-containet = img-wrapper
   return (
     <div class="main-wrapper">
       <a href={props.website}>

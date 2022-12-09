@@ -6,7 +6,7 @@ import Headshot from '../../photos/about-me-headshot.jpg'
 
 function About() {
   return (
-    <Background className="row backgroundimg">
+    <Background className="row">
       <Row>
         <Col size="md-12" id="About">
           <div className="headline">
