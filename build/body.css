@@ -1,17 +1,17 @@
-body {
+/* body {
 /*     font-family: 'Josefin Sans', sans-serif; 
- */    padding-bottom: 20px;
-    background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
-
-/*   background-image: url("./photos/Asset_130.png";    */
+    
+ padding-bottom: 20px;
+ /*  background-image: url("./photos/Asset\ 130.png"); 
+   background-image: url("./photos/luca-bravo-g_LG9LGyTk8-unsplash.jpg");
     background-size: cover;
     background-repeat: repeat-x;
     background-position: center;  
-    height: 200%;
+    height: 100%;
     width: 100%;
     overflow: visible; 
     margin: 0%;
     vertical-align:bottom;
     background-color:darkblue;
-}
+} */
 

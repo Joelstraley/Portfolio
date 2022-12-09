@@ -6,3 +6,5 @@ remote-repo/
 .module-cache
 .idea
 .vscode
+# Local Netlify folder
+.netlify
