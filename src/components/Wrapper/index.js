@@ -1,9 +1,9 @@
-import React from "react";
-
 function Wrapper(props) {
-  return  <main className="wrapper" style={{ backgroundImage: `url(${props.backgroundImage})` }} {...props} >
+  return (
+    <main className="wrapper" id="top">
       {props.children}
     </main>
+  )
 }
 
-export default Wrapper;
+export default Wrapper

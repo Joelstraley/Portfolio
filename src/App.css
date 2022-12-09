@@ -41,19 +41,60 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid var(--scrollbarBG);
 }
 
+.nav-container {
+  position: fixed;
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.nav-button, .nav-dropdown,
+.nav-button:focus, .nav-dropdown:focus,
+.nav-button:hover, .nav-dropdown:hover {
+  color:rgba(8, 170, 245, 1);
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-secondary, .dropdown-toggle {
+  background-color: black;
+  border-color: black;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, 
+.btn-secondary:not(:disabled):not(.disabled):focus, 
+.show>.btn-secondary.dropdown-toggle, 
+.show>.btn-secondary.dropdown-toggle:hover {
+  color:rgba(8, 170, 245, 1);
+  background-color: black;
+  border-color: black;
+  box-shadow: none;
+}
+
+.show, .show:hover {
+  background-color: black;
+  border-color: black;
+}
+
+.dropdown-menu.show {
+  border-radius: 10px;
+}
+
+.nav-item {
+  background-color: black;
+  color: rgba(8, 170, 245, 1);
+  background-color: black;
+  border-color: black;
+}
 
 #header {
-   color:rgba(8, 170, 245, 1);
-/*   color: #06EFB1; */
+  color:rgba(8, 170, 245, 1);
   font-family: 'Josefin Sans', sans-serif;
-/*   font-family: neuatra;*/
-}
-
-#navbarNav {
-  margin-left: auto;
-  display: grid;
-}
-
+} 
 
 .headerImg{ 
   width: 2em;
@@ -66,21 +107,6 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-
-/* .navbar {
-  margin-bottom: 1em;
-} */
-
-/* .backgroundimg {
-  background-size: cover;
-  background-repeat: repeat-x;
-  background-position: center;  
-  height: 100vh;
-  width: 100wh;
- overflow: visible; 
-  margin: 0%;
-  vertical-align:bottom;
-} */
 
 .wrapper {
   margin-left: 10vh;
@@ -153,11 +179,11 @@ p {
 }
 
 .headshot {
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-   display: flex;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
   justify-content: center;
   align-items: center; 
   position: inherit;
@@ -273,13 +299,12 @@ small {
  a {
     color: black;
     text-decoration: none;
-    cursor:url(./photos/headshot-cursor.png), pointer; 
+    cursor:url(./photos/headshot-cursor-new.png), pointer; 
   }  
 
   a:hover{
-   /*  color:rgba(8, 170, 245, 1); */
     text-decoration: none;
-    cursor:url(./photos/headshot-cursor.png), pointer; 
+    cursor:url(./photos/headshot-cursor-new.png), pointer; 
   }
 
   .social {
@@ -287,14 +312,13 @@ small {
   } 
 
   .social:hover {
-    color: 
-    rgba(6, 239, 177, 0.596);
+    color: rgba(6, 239, 177, 0.596);
   }
 
-.backgroundimg {
+/* .backgroundimg {
   background-size: cover;
   overflow: hidden;
-}
+} */
 
 
 @media only screen and (max-device-width: 480px)  { 
