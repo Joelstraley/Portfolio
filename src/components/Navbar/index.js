@@ -3,35 +3,6 @@ import js from '../../photos/javascript_logo.png'
 import { Link } from 'react-router-dom'
 
 export default class Navbar extends Component {
-  /*  constructor(props) {
-    super(props)
-
-    this.state = {
-      prevScrollpos: window.pageYOffset,
-      visible: true,
-    }
-  }
-
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll)
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll)
-  }
-
-  handleScroll = () => {
-    const { prevScrollpos } = this.state
-
-    const currentScrollPos = window.pageYOffset
-    const visible = prevScrollpos > currentScrollPos
-
-    this.setState({
-      prevScrollpos: currentScrollPos,
-      visible,
-    })
-  } */
-
   render() {
     return (
       <div className="nav-container">
@@ -65,6 +36,7 @@ export default class Navbar extends Component {
         <Link className="navbar-brand header">
           <a
             id="header"
+            className="header"
             href="https://networthpost.org/net-worth/joel-straley-net-worth/"
             target="_blank"
             rel="noreferrer"
