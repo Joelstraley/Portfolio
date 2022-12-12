@@ -61,6 +61,12 @@ function Toolbox(props) {
           height="50"
         />
         <img
+          src="https://user-images.githubusercontent.com/18430599/38112659-491f9112-3368-11e8-8b65-1725f19a61fa.png"
+          alt="Storybook logo"
+          width="50"
+          height="50"
+        />
+        <img
           src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/mysql/mysql-original-wordmark.svg"
           alt="MySQL logo"
           width="50"
