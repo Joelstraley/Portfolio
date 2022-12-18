@@ -28,24 +28,6 @@
         "github": "https://github.com/Joelstraley/Burger"
     },
     {
-        "id": 4,
-        "name": "Helping Out",
-        "image": "photos/Helping Out-adjusted.png",
-        "tech": "jQuery, Google APIs (Maps/Places/Geocoder), Semantic UI",
-        "description": "The user is asked to Donate Food, Blood or Time then inputs their zip code to get results for charities near them. These can be saved to their Favorites.",
-        "website": "https://joelstraley.github.io/Project-1-Helping-Out/",
-        "github": "https://github.com/Joelstraley/Project-1-Helping-Out"
-    },
-    {
-        "id": 5,
-        "name": "Comedy Stream",
-        "image": "photos/ComedyStream-Main.png",
-        "tech": "React, Node.js, Express, MongoDB, Tailwind.css, Fuse.js, Days.js, Passport, Bcrypt, JSON Web Token, Heroku",
-        "description": "Comedy Stream is a hub for all online live comedy events. Users can create an account to add new shows.",
-        "website": "https://comedy-stream.herokuapp.com/",
-        "github": "https://github.com/Joelstraley/Project-3-Improv-Coders"
-    },
-    {
         "id": 6,
         "name": "Weather Dashboard",
         "image": "./photos/WeatherDashboard.png",
