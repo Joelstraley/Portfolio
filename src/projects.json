@@ -28,7 +28,7 @@
         "github": "https://github.com/Joelstraley/Burger"
     },
     {
-        "id": 6,
+        "id": 4,
         "name": "Weather Dashboard",
         "image": "./photos/WeatherDashboard.png",
         "tech": "Ajax, OpenWeather API, jQuery, Bootstrap",
