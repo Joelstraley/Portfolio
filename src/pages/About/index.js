@@ -31,7 +31,7 @@ function About() {
               <div className="new-line"></div>
               I am a Full Stack Web Developer who graduated from the Columbia
               Engineering Coding Bootcamp. I recently worked as an Associate
-              Front-end engineer for Refersion, an enterprise-level (14,000
+              Front-end engineer for Refersion, an enterprise-level (60,000+
               users) Affiliate Marketing Management application.
               <br />
               <br />I was integral part of creating an in-house reusable
