@@ -22,11 +22,15 @@ function ProjectCard(props) {
                 {' '}
                 Website{' '}
               </a>
-              <i className="fab fa-github fa-.5x"></i>
-              <a href={props.github} className="extURL">
-                {' '}
-                Github
-              </a>
+              {props.github && (
+                <>
+                  <i className="fab fa-github fa-.5x"></i>
+                  <a href={props.github} className="extURL">
+                    {' '}
+                    Github
+                  </a>
+                </>
+              )}
             </h6>
           </div>
         </div>

@@ -12,28 +12,14 @@ function CreativeCard(props) {
   const [projects, setProjects] = useState(Creatives)
   const [isContentVisible, setIsContentVisible] = useState(true)
   const [id, setId] = useState(0)
-  /*   const [prevId, setPrevId] = useState(null)
-  const [nextId, setNextId] = useState(null) */
 
   useEffect(() => {
     setProjects(Creatives)
   }, [])
 
-  /*   useEffect(() => {
-    setNextId(null)
-  }, [prevId])
-
-  useEffect(() => {
-    setPrevId(null)
-  }, [nextId])
- */
-  const prevPage = () => {
+  const prevPage = (e) => {
     if (id === 0) {
-      console.log('NEXT-if', id)
-      setId(4)
-      setIsContentVisible(true)
-    } else if (id >= 4) {
-      setId(0)
+      setId(projects.length - 1)
       setIsContentVisible(true)
     } else {
       setId(id - 1)
@@ -41,16 +27,11 @@ function CreativeCard(props) {
     }
   }
 
-  const nextPage = () => {
-    if (id >= -1) {
-      console.log('NEXT-if', id)
-      setId(id + 1)
-      setIsContentVisible(true)
-    } else if (id >= 4) {
+  const nextPage = (e) => {
+    if (id === projects.length - 1) {
       setId(0)
       setIsContentVisible(true)
-    } else {
-      console.log('NEXT-else', id)
+    } else if (id >= -1) {
       setId(id + 1)
       setIsContentVisible(true)
     }
@@ -58,7 +39,7 @@ function CreativeCard(props) {
 
   return (
     <div className="main-wrapper">
-      <button className="button-creative" onClick={prevPage}>
+      <button className="button-creative" onClick={() => prevPage(id)}>
         <FontAwesomeIcon icon={faChevronLeft} />
       </button>
       {projects.map((project, index) => {
@@ -75,7 +56,7 @@ function CreativeCard(props) {
           )
         )
       })}
-      <button className="button-creative" onClick={nextPage}>
+      <button className="button-creative" onClick={() => nextPage(id)}>
         <FontAwesomeIcon icon={faChevronRight} />
       </button>
     </div>

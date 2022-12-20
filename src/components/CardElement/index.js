@@ -6,7 +6,7 @@ function CardElement(props) {
     <>
       <a href={props.website}>
         <div className="card card-creative">
-          {props.index === 0 ? (
+          {props.index === 4 ? (
             <>
               <img
                 src={props.id}

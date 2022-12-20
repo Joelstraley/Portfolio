@@ -87,6 +87,10 @@
   color: red;
 }
 
+.button-creative:hover {
+  color: rgba(255, 0, 0, 0.483); 
+}
+
   @container (max-width: 800px) {
     .info {
       display: flex;

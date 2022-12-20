@@ -1,11 +1,5 @@
 [
     {
-        "index": 0,
-        "id": "./photos/Baby-Yoda-Art.png",
-        "description": "Baby Yoda, you didn't recognize him?",
-        "website": "https://openprocessing.org/sketch/1274401"
-    },
-    {
         "index": 1,
         "id": 1324570,
         "description": "Harmonic Motion & Animation",
@@ -28,5 +22,11 @@
         "id": 1292680,
         "description": "Transformation sketch",
         "website": "https://openprocessing.org/sketch/1292680"
+    },
+    {
+        "index": 5,
+        "id": "./photos/Baby-Yoda-Art.png",
+        "description": "Baby Yoda, you didn't recognize him?",
+        "website": "https://openprocessing.org/sketch/1274401"
     }
 ]

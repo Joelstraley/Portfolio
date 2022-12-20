@@ -20,6 +20,14 @@
     },
     {
         "id": 3,
+        "name": "Creative Coding",
+        "image": "./photos/creative-coding.png",
+        "tech": "p5.js",
+        "description": "Art made by coding in p5.js",
+        "website": "/creative"
+    },
+    {
+        "id": 4,
         "name": "Hashtag Goals",
         "image": "./photos/Hashtag-Goals-adjusted.png",
         "tech": "Node.js, Express, MySQL, Sequelize, Handlebars, Semantic UI, Passport, Bcrypt, Heroku",
@@ -28,12 +36,12 @@
         "github": "https://github.com/Joelstraley/Hashtag-Goals"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Weather Dashboard",
         "image": "./photos/WeatherDashboard.png",
         "tech": "Ajax, OpenWeather API, jQuery, Bootstrap",
         "description": "The Weather Dashboard utilizes the Openweather API to display specific weather information based on an city submitted into the Search input.",
-        "website": "/creative",
+        "website": "https://joelstraley.github.io/Weather-Dashboard/",
         "github": "https://github.com/Joelstraley/Weather-Dashboard"
     }
 ]
