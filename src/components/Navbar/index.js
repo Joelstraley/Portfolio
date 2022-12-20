@@ -16,7 +16,7 @@ export default class Navbar extends Component {
             aria-expanded="false"
           ></button>
           <div
-            class="dropdown-menu nav-dropdown"
+            className="dropdown-menu nav-dropdown"
             aria-labelledby="dropdownMenuButton"
           >
             <a class="dropdown-item nav-item" href="#top">

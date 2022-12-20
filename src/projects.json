@@ -11,21 +11,21 @@
     },
     {
         "id": 2,
-        "name": "Hashtag Goals",
-        "image": "./photos/Hashtag-Goals-adjusted.png",
-        "tech": "Node.js, Express, MySQL, Sequelize, Handlebars, Semantic UI, Passport, Bcrypt, Heroku",
-        "description": "The user creates an account then chooses a goal and how many times a week they can dedicate to achieving their goal. A calendar populates a series of minor milestones at their requested frequency.",
-        "website": "https://hashtag-goals.herokuapp.com/",
-        "github": "https://github.com/Joelstraley/Hashtag-Goals"
-    },
-    {
-        "id": 3,
         "name": "Eat A Burger",
         "image": "./photos/Burger App- adjusted.png",
         "tech": "Node.js, Express, Handlebars, MySQL, Heroku",
         "description": "A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Follows an MVC design pattern to use Node and MySQL to query and route data, and Handlebars to generate the HTML.",
         "website": "https://eatburgerz.herokuapp.com/",
         "github": "https://github.com/Joelstraley/Burger"
+    },
+    {
+        "id": 3,
+        "name": "Hashtag Goals",
+        "image": "./photos/Hashtag-Goals-adjusted.png",
+        "tech": "Node.js, Express, MySQL, Sequelize, Handlebars, Semantic UI, Passport, Bcrypt, Heroku",
+        "description": "The user creates an account then chooses a goal and how many times a week they can dedicate to achieving their goal. A calendar populates a series of minor milestones at their requested frequency.",
+        "website": "https://hashtag-goals.herokuapp.com/",
+        "github": "https://github.com/Joelstraley/Hashtag-Goals"
     },
     {
         "id": 4,
