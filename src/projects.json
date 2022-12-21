@@ -20,21 +20,22 @@
     },
     {
         "id": 3,
+        "name": "Hashtag Goals",
+        "image": "./photos/Hashtag-Goals-newBG.png",
+        "tech": "Node.js, Express, MySQL, Sequelize, Handlebars, Semantic UI, Passport, Bcrypt, Heroku",
+        "description": "The user creates an account then chooses a goal and how many times a week they can dedicate to achieving their goal. A calendar populates a series of minor milestones at their requested frequency.",
+        "website": "https://hashtag-goals.herokuapp.com/",
+        "github": "https://github.com/Joelstraley/Hashtag-Goals"
+    },    
+    {
+        "id": 4,
         "name": "Creative Coding",
         "image": "./photos/creative-coding.png",
         "tech": "p5.js",
         "description": "Art made by coding in p5.js",
         "website": "/creative"
     },
-    {
-        "id": 4,
-        "name": "Hashtag Goals",
-        "image": "./photos/Hashtag-Goals-adjusted.png",
-        "tech": "Node.js, Express, MySQL, Sequelize, Handlebars, Semantic UI, Passport, Bcrypt, Heroku",
-        "description": "The user creates an account then chooses a goal and how many times a week they can dedicate to achieving their goal. A calendar populates a series of minor milestones at their requested frequency.",
-        "website": "https://hashtag-goals.herokuapp.com/",
-        "github": "https://github.com/Joelstraley/Hashtag-Goals"
-    },
+
     {
         "id": 5,
         "name": "Weather Dashboard",
