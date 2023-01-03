@@ -25,31 +25,35 @@ function About() {
         <Col size="md-8">
           <div id="about">
             <p>
-              Hi, I'm Joel.
+              Hey, I'm Joel.
               <br />
               <br />
               <div className="new-line"></div>
-              I am a Full Stack Web Developer who graduated from the Columbia
-              Engineering Coding Bootcamp. I recently worked as an Associate
-              Front-end engineer for Refersion, an enterprise-level (60k+ users)
-              Affiliate Marketing Management application.
-              <br />
-              <br />I was integral part of creating an in-house reusable
-              component Library using React Storybook. These components were
-              utilized in a redesign of the entire application to showcase more
-              robust and responsive data-tables and dashboards. I gained
+              I'm a Fullstack Web Developer with 1.5 years of professional
               experience using the frameworks React and Laravel with Javascript
-              and PHP to write, update and deploy code to production. I worked
-              in a Agile (Scrum) environment with a team that consistently
-              exceeded sprint goals.
+              and PHP to write, update and deploy code to production.
               <div className="new-line"></div>
               <br />
-              Previously, I worked as Operations Specialist for Uber where my
-              work was vital in helping to increase the availability of
-              Wheelchair accessible commercial vehicles in NYC. During 2020 I
-              was a Logistics Manager for The Migrant Kitchen and built a
-              dynamic logistical strategy to deliver 1,000 meals a day, six days
-              a week to NYC residents across all 5 burroughs.
+              My previous role was at Refersion, an enterprise-level (60k+
+              users) Affiliate Marketing Management app, developing and
+              maintaining a reusable and responsive component library to create
+              scalable single page applications. I've worked in a Agile (Scrum)
+              environment with a high-performing team that consistently exceeded
+              sprint goals often completely projects before deadlines and under
+              budget.
+              <div className="new-line"></div>
+              <br />
+              Before learning to code, my experience has been in operational
+              logistics in fast-paced environments. I worked as an Operations
+              Specialist for Uber for 6+ years and spent the 2020 pandemic
+              working with The Migrant Kitchen to build a dynamic logistics
+              strategy to deliver 1,000 meals a day, six days a week to NYC
+              residents across all 5 boroughs.
+              <div className="new-line"></div>
+              <br />
+              Outside of work, I've been involved in Improv and Sketch comedy
+              for 10+ years in NYC and enjoy making short films.
+              <br />
             </p>
             <br></br>
           </div>
