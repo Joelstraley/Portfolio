@@ -37,9 +37,9 @@ function About() {
               My previous role was at Refersion, an enterprise-level (60k+
               users) Affiliate Marketing Management app, developing and
               maintaining a reusable and responsive component library to create
-              scalable single page applications. I've worked in a Agile (Scrum)
+              scalable single page applications. I've worked in an Agile (Scrum)
               environment with a high-performing team that consistently exceeded
-              sprint goals often completely projects before deadlines and under
+              sprint goals, often completing projects before deadlines and under
               budget.
               <div className="new-line"></div>
               <br />
