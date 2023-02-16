@@ -2,7 +2,7 @@ import './style.css'
 
 function ProjectCard(props) {
   return (
-    <div class="main-wrapper">
+    <div className="main-wrapper">
       <a href={props.website}>
         <div className="card">
           <div className="img-container">

@@ -9,3 +9,4 @@ remote-repo/
 .vscode
 # Local Netlify folder
 .netlify
+../src/photos/.DS_Store

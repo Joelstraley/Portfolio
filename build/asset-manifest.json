@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd26593e.chunk.css",
-    "main.js": "/static/js/main.726d1a56.chunk.js",
-    "main.js.map": "/static/js/main.726d1a56.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6257cb19.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6257cb19.js.map",
-    "static/css/2.081f420c.chunk.css": "/static/css/2.081f420c.chunk.css",
-    "static/js/2.6666be3c.chunk.js": "/static/js/2.6666be3c.chunk.js",
-    "static/js/2.6666be3c.chunk.js.map": "/static/js/2.6666be3c.chunk.js.map",
-    "static/js/3.992cce74.chunk.js": "/static/js/3.992cce74.chunk.js",
-    "static/js/3.992cce74.chunk.js.map": "/static/js/3.992cce74.chunk.js.map",
+    "main.css": "/static/css/main.2f74edaa.css",
+    "main.js": "/static/js/main.40da5d2a.js",
+    "static/js/787.3f9a36af.chunk.js": "/static/js/787.3f9a36af.chunk.js",
+    "static/media/DALL·E 2023-02-14 17.17.25 - Joel Straley.png": "/static/media/DALL·E 2023-02-14 17.17.25 - Joel Straley.f4e13545f51cfd74b777.png",
+    "static/media/DALL·E 2023-02-14 17.17.30 - Joel Straley.png": "/static/media/DALL·E 2023-02-14 17.17.30 - Joel Straley.c1f975ce35ff711e0928.png",
+    "static/media/DALL·E 2023-02-14 17.16.07 - Joel Straley.png": "/static/media/DALL·E 2023-02-14 17.16.07 - Joel Straley.903f33b1fd2a4650a0a9.png",
+    "static/media/1.png": "/static/media/1.f44c896a14a0773205b6.png",
+    "static/media/2.png": "/static/media/2.48e6860d00e11ecf301a.png",
+    "static/media/DALL·E 2023-02-14 17.16.28 - Joel Straley.png": "/static/media/DALL·E 2023-02-14 17.16.28 - Joel Straley.68649059cc405fa106ab.png",
+    "static/media/3.png": "/static/media/3.cf754cc5dd69d446502b.png",
+    "static/media/DALL·E 2023-02-14 17.17.49 - Joel Straley.png": "/static/media/DALL·E 2023-02-14 17.17.49 - Joel Straley.b4eb270a8f2f443499b1.png",
+    "static/media/DALL·E 2023-02-14 17.17.01 - Joel Straley.png": "/static/media/DALL·E 2023-02-14 17.17.01 - Joel Straley.00dc390ed6b5cc610904.png",
+    "static/media/luca-bravo-g_LG9LGyTk8-unsplash.jpg": "/static/media/luca-bravo-g_LG9LGyTk8-unsplash.567ade974c592c9bff64.jpg",
+    "static/media/about-me-headshot.jpg": "/static/media/about-me-headshot.0928a2e0b4b7a892f2ef.jpg",
+    "static/media/headshot-cursor-new.png": "/static/media/headshot-cursor-new.6f864c34becf74b23b5a.png",
+    "static/media/javascript_logo.png": "/static/media/javascript_logo.f0ad5fabdfb6e145b2c7.png",
     "index.html": "/index.html",
-    "static/css/2.081f420c.chunk.css.map": "/static/css/2.081f420c.chunk.css.map",
-    "static/css/main.dd26593e.chunk.css.map": "/static/css/main.dd26593e.chunk.css.map",
-    "static/js/2.6666be3c.chunk.js.LICENSE.txt": "/static/js/2.6666be3c.chunk.js.LICENSE.txt",
-    "static/media/about-me-headshot.0928a2e0.jpg": "/static/media/about-me-headshot.0928a2e0.jpg",
-    "static/media/App.css": "/static/media/luca-bravo-g_LG9LGyTk8-unsplash.567ade97.jpg",
-    "static/media/javascript_logo.f0ad5fab.png": "/static/media/javascript_logo.f0ad5fab.png"
+    "main.2f74edaa.css.map": "/static/css/main.2f74edaa.css.map",
+    "main.40da5d2a.js.map": "/static/js/main.40da5d2a.js.map",
+    "787.3f9a36af.chunk.js.map": "/static/js/787.3f9a36af.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6257cb19.js",
-    "static/css/2.081f420c.chunk.css",
-    "static/js/2.6666be3c.chunk.js",
-    "static/css/main.dd26593e.chunk.css",
-    "static/js/main.726d1a56.chunk.js"
+    "static/css/main.2f74edaa.css",
+    "static/js/main.40da5d2a.js"
   ]
 }

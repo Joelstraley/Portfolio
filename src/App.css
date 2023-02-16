@@ -98,6 +98,15 @@ body::-webkit-scrollbar-thumb {
   height: 2em;
 }
 
+.imgHeadshot--hover-text {
+  display: block;
+  font-size: small;
+  font-style: italic;
+  text-align: center;
+/*   margin-left: auto;
+  margin-right: auto; */
+}
+
 .col {
   align-items: center;
   justify-content: center;

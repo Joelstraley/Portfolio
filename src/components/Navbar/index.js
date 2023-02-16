@@ -6,9 +6,9 @@ export default class Navbar extends Component {
   render() {
     return (
       <div className="nav-container">
-        <div class="dropdown navbar-brand" id="header">
+        <div className="dropdown navbar-brand" id="header">
           <button
-            class="btn btn-secondary dropdown-toggle nav-button"
+            className="btn btn-secondary dropdown-toggle nav-button"
             type="button"
             id="dropdownMenuButton"
             data-toggle="dropdown"
@@ -19,31 +19,31 @@ export default class Navbar extends Component {
             className="dropdown-menu nav-dropdown"
             aria-labelledby="dropdownMenuButton"
           >
-            <a class="dropdown-item nav-item" href="#top">
+            <a className="dropdown-item nav-item" href="#top">
               About Me
             </a>
-            <a class="dropdown-item nav-item" href="#projects">
+            <a className="dropdown-item nav-item" href="#projects">
               Projects
             </a>
-            <a class="dropdown-item nav-item" href="#tools">
+            <a className="dropdown-item nav-item" href="#tools">
               Tools
             </a>
-            <a class="dropdown-item nav-item" href="#contact">
+            <a className="dropdown-item nav-item" href="#contact">
               Contact
             </a>
           </div>
         </div>
-        <Link className="navbar-brand header">
+        {/* <Link className="navbar-brand header" to={"https://networthpost.org/net-worth/joel-straley-net-worth/"}> */}
           <a
             id="header"
-            className="header"
+            className="navbar-brand header"
             href="https://networthpost.org/net-worth/joel-straley-net-worth/"
             target="_blank"
             rel="noreferrer"
           >
             <img src={js} alt={js} className="headerImg"></img>Joel Straley
           </a>
-        </Link>
+    
       </div>
     )
   }
