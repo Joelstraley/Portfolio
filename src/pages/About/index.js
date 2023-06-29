@@ -67,7 +67,7 @@ function About() {
 							<div className="new-line"></div>
 							<br />
 							My previous role was at Refersion, an enterprise-level (60k+
-							users) Affiliate Marketing Management app, developing and
+							monthly users) Affiliate Marketing Management app, developing and
 							maintaining a reusable and responsive component library to create
 							scalable single page applications. I've worked in an Agile (Scrum)
 							environment with a high-performing team that consistently exceeded

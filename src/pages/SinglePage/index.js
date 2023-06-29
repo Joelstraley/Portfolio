@@ -15,18 +15,18 @@ function SinglePage() {
       <Navbar />
       <Background className="row">
         <Container>
-          <About></About>
+          <About />
           <Col size="md-10">
-            <Portfolio></Portfolio>
+            <Portfolio />
           </Col>
           <Col size="md-10">
             <Row>
-              <Toolbox></Toolbox>
+              <Toolbox />
             </Row>
           </Col>
           <Col size="md-10">
             <Row>
-              <ContactEl></ContactEl>
+              <ContactEl />
             </Row>
           </Col>
         </Container>

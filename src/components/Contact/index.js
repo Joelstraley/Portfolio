@@ -47,7 +47,7 @@ function ContactEl(props) {
       <div className="new-line"></div>
       <a
         className="social"
-        href="Joel Straley - Resume - 2022.pdf"
+        href="Joel Straley - Software Engineer - Resume.pdf"
         target="_blank"
       >
         Download My Resume

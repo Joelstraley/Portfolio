@@ -20,6 +20,15 @@
     },
     {
         "id": 3,
+        "name": "Windows95 YouTube",
+        "image": "./photos/Windows-95-tube.png",
+        "tech": "React, React95 UI Library, YouTube API, Heroku",
+        "description": "What would YouTube look like on the Windows95 OS?",
+        "website": "https://windows95tube.herokuapp.com/",
+        "github": "https://github.com/Joelstraley/90sYoutube"
+    },
+    {
+        "id": 4,
         "name": "Hashtag Goals",
         "image": "./photos/Hashtag-Goals-newBG.png",
         "tech": "Node.js, Express, MySQL, Sequelize, Handlebars, Semantic UI, Passport, Bcrypt, Heroku",
@@ -28,7 +37,7 @@
         "github": "https://github.com/Joelstraley/Hashtag-Goals"
     },    
     {
-        "id": 4,
+        "id": 5,
         "name": "Creative Coding",
         "image": "./photos/creative-coding.png",
         "tech": "p5.js",
@@ -37,7 +46,7 @@
     },
 
     {
-        "id": 5,
+        "id": 6,
         "name": "Weather Dashboard",
         "image": "./photos/WeatherDashboard.png",
         "tech": "Ajax, OpenWeather API, jQuery, Bootstrap",
