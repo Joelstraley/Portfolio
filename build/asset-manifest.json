@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5cd26427.css",
-    "main.js": "/static/js/main.40da5d2a.js",
+    "main.js": "/static/js/main.e15dce30.js",
     "static/js/787.3f9a36af.chunk.js": "/static/js/787.3f9a36af.chunk.js",
     "static/media/DALL·E 2023-02-14 17.17.25 - Joel Straley.png": "/static/media/DALL·E 2023-02-14 17.17.25 - Joel Straley.f4e13545f51cfd74b777.png",
     "static/media/DALL·E 2023-02-14 17.17.30 - Joel Straley.png": "/static/media/DALL·E 2023-02-14 17.17.30 - Joel Straley.c1f975ce35ff711e0928.png",
@@ -18,11 +18,11 @@
     "static/media/javascript_logo.png": "/static/media/javascript_logo.f0ad5fabdfb6e145b2c7.png",
     "index.html": "/index.html",
     "main.5cd26427.css.map": "/static/css/main.5cd26427.css.map",
-    "main.40da5d2a.js.map": "/static/js/main.40da5d2a.js.map",
+    "main.e15dce30.js.map": "/static/js/main.e15dce30.js.map",
     "787.3f9a36af.chunk.js.map": "/static/js/787.3f9a36af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cd26427.css",
-    "static/js/main.40da5d2a.js"
+    "static/js/main.e15dce30.js"
   ]
 }
