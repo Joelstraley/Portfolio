@@ -36,7 +36,7 @@ function Toolbox(props) {
           height="50"
         />
         <img
-          src="https://pngimage.net/wp-content/uploads/2018/05/express-js-png-5.png"
+          src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/express/express-original.svg"
           alt="Express logo"
           width="50"
           height="50"
