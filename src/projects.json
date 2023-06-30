@@ -1,16 +1,6 @@
 [
     {
         "id": 1,
-        "name": "DinnerFlix",
-        "image": "./photos/dinnerflix-app.png",
-        "tech": "React, GraphQL, AstraDB, Cassandra, Netlify",
-        "description": "A React app Netflix clone, with ONLY the movie 'My Dinner with Andre', running an Astra DB API with GraphQL.",
-        "website": "https://dinnerflix.netlify.app/",
-        "github": "https://github.com/Joelstraley/DinnerFlix"
-        
-    },
-    {
-        "id": 2,
         "name": "Windows95 YouTube",
         "image": "./photos/Windows-95-tube.png",
         "tech": "React, React95 UI Library, YouTube API, Heroku",
@@ -19,13 +9,23 @@
         "github": "https://github.com/Joelstraley/90sYoutube"
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "Eat A Burger",
         "image": "./photos/Burger App- adjusted.png",
         "tech": "Node.js, Express, Handlebars, MySQL, Heroku",
         "description": "A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Follows an MVC design pattern to use Node and MySQL to query and route data, and Handlebars to generate the HTML.",
         "website": "https://eatburgerz.herokuapp.com/",
         "github": "https://github.com/Joelstraley/Burger"
+    },
+    {
+        "id": 3,
+        "name": "DinnerFlix",
+        "image": "./photos/dinnerflix-app.png",
+        "tech": "React, GraphQL, AstraDB, Cassandra, Netlify",
+        "description": "A React app Netflix clone, with ONLY the movie 'My Dinner with Andre', running an Astra DB API with GraphQL.",
+        "website": "https://dinnerflix.netlify.app/",
+        "github": "https://github.com/Joelstraley/DinnerFlix"
+        
     },
     {
         "id": 4,
