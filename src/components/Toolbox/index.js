@@ -55,7 +55,7 @@ function Toolbox(props) {
           height="50"
         />
         <img
-          src="https://camo.githubusercontent.com/eab4e3fe8ddae86bac8e286b490019fa69a2f57daf01ffeb38d24b2bb32d7e1c/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f7461696c77696e646373732e737667"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
           alt="Tailwind logo"
           width="50"
           height="50"

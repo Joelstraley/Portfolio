@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cd26427.css",
-    "main.js": "/static/js/main.e15dce30.js",
-    "static/js/787.3f9a36af.chunk.js": "/static/js/787.3f9a36af.chunk.js",
+    "main.css": "/static/css/main.13c385c7.css",
+    "main.js": "/static/js/main.4b0cd737.js",
+    "static/js/787.155c01e6.chunk.js": "/static/js/787.155c01e6.chunk.js",
     "static/media/DALL·E 2023-02-14 17.17.25 - Joel Straley.png": "/static/media/DALL·E 2023-02-14 17.17.25 - Joel Straley.f4e13545f51cfd74b777.png",
     "static/media/DALL·E 2023-02-14 17.17.30 - Joel Straley.png": "/static/media/DALL·E 2023-02-14 17.17.30 - Joel Straley.c1f975ce35ff711e0928.png",
     "static/media/DALL·E 2023-02-14 17.16.07 - Joel Straley.png": "/static/media/DALL·E 2023-02-14 17.16.07 - Joel Straley.903f33b1fd2a4650a0a9.png",
@@ -13,16 +13,18 @@
     "static/media/DALL·E 2023-02-14 17.17.49 - Joel Straley.png": "/static/media/DALL·E 2023-02-14 17.17.49 - Joel Straley.b4eb270a8f2f443499b1.png",
     "static/media/DALL·E 2023-02-14 17.17.01 - Joel Straley.png": "/static/media/DALL·E 2023-02-14 17.17.01 - Joel Straley.00dc390ed6b5cc610904.png",
     "static/media/luca-bravo-g_LG9LGyTk8-unsplash.jpg": "/static/media/luca-bravo-g_LG9LGyTk8-unsplash.567ade974c592c9bff64.jpg",
+    "static/media/Joel_Straley-Transparent-Background.png": "/static/media/Joel_Straley-Transparent-Background.a072f2884611ccb20b5a.png",
     "static/media/about-me-headshot.jpg": "/static/media/about-me-headshot.0928a2e0b4b7a892f2ef.jpg",
+    "static/media/Space.jpg": "/static/media/Space.b3db88363170997dac39.jpg",
     "static/media/headshot-cursor-new.png": "/static/media/headshot-cursor-new.6f864c34becf74b23b5a.png",
     "static/media/javascript_logo.png": "/static/media/javascript_logo.f0ad5fabdfb6e145b2c7.png",
     "index.html": "/index.html",
-    "main.5cd26427.css.map": "/static/css/main.5cd26427.css.map",
-    "main.e15dce30.js.map": "/static/js/main.e15dce30.js.map",
-    "787.3f9a36af.chunk.js.map": "/static/js/787.3f9a36af.chunk.js.map"
+    "main.13c385c7.css.map": "/static/css/main.13c385c7.css.map",
+    "main.4b0cd737.js.map": "/static/js/main.4b0cd737.js.map",
+    "787.155c01e6.chunk.js.map": "/static/js/787.155c01e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cd26427.css",
-    "static/js/main.e15dce30.js"
+    "static/css/main.13c385c7.css",
+    "static/js/main.4b0cd737.js"
   ]
 }

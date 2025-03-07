@@ -10,15 +10,6 @@
     },
     {
         "id": 2,
-        "name": "Eat A Burger",
-        "image": "./photos/Burger App- adjusted.png",
-        "tech": "Node.js, Express, Handlebars, MySQL, Heroku",
-        "description": "A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Follows an MVC design pattern to use Node and MySQL to query and route data, and Handlebars to generate the HTML.",
-        "website": "https://eatburgerz.herokuapp.com/",
-        "github": "https://github.com/Joelstraley/Burger"
-    },
-    {
-        "id": 3,
         "name": "DinnerFlix",
         "image": "./photos/dinnerflix-app.png",
         "tech": "React, GraphQL, AstraDB, Cassandra, Netlify",
@@ -26,6 +17,15 @@
         "website": "https://dinnerflix.netlify.app/",
         "github": "https://github.com/Joelstraley/DinnerFlix"
         
+    },
+    {
+        "id": 3,
+        "name": "Eat A Burger",
+        "image": "./photos/Burger App- adjusted.png",
+        "tech": "Node.js, Express, Handlebars, MySQL, Heroku",
+        "description": "A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Follows an MVC design pattern to use Node and MySQL to query and route data, and Handlebars to generate the HTML.",
+        "website": "https://eatburgerz.herokuapp.com/",
+        "github": "https://github.com/Joelstraley/Burger"
     },
     {
         "id": 4,
@@ -43,15 +43,5 @@
         "tech": "p5.js",
         "description": "Art made by coding in p5.js",
         "website": "/creative"
-    },
-
-    {
-        "id": 6,
-        "name": "Weather Dashboard",
-        "image": "./photos/WeatherDashboard.png",
-        "tech": "Ajax, OpenWeather API, jQuery, Bootstrap",
-        "description": "The Weather Dashboard utilizes the Openweather API to display specific weather information based on an city submitted into the Search input.",
-        "website": "https://joelstraley.github.io/Weather-Dashboard/",
-        "github": "https://github.com/Joelstraley/Weather-Dashboard"
     }
 ]

@@ -1,19 +1,15 @@
-import React, { Component } from 'react'
 import Title from '../../components/Title'
 import ProjectCard from '../../components/ProjectCard'
 import projects from '../../projects.json'
 
-class Portfolio extends Component {
-  state = {
-    projects,
-  }
+function Portfolio() {
 
-  render() {
     return (
       <div className="projects" id="projects">
         <Title>Projects 👨‍💻</Title>
-        {this.state.projects.map((project) => (
+        {projects.map((project) => (
           <ProjectCard
+            key={project.id}
             a={project.website}
             id={project.id}
             image={project.image}
@@ -26,7 +22,6 @@ class Portfolio extends Component {
         ))}
       </div>
     )
-  }
 }
 
 export default Portfolio

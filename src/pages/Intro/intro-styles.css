@@ -1,0 +1,770 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 1em;
+    overflow-y: hidden;
+  /*   max-width: 100vw;
+    max-height: 100vh; */
+} 
+
+.intro-container {
+    background-image: url('../../photos//Intro/Space.jpg');
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    transform-style: preserve-3d;
+  /*   perspective: 400px; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-scroll {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 2em;
+    transform-style: preserve-3d;
+    perspective: 500px;
+   /*  animation: scrawl-scroll 5s linear forwards; */
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    height: 35%;
+    position: absolute;
+    /* position: absolute; */
+  /*   margin-top: 150%; */
+    opacity: 1;
+    z-index: 100;
+    animation: logo-scroll 5s ease-out forwards;
+ }
+
+@keyframes logo-scroll {
+    0% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        scale: 0;
+    }
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    font-family: "News Cycle", serif;
+    font-weight: 700;
+    font-style: normal;
+   /*  margin: 1em 1em 1em 1em; */
+    padding: 0 60em;
+
+    /* padding: 0 96em; */
+    text-align: justify;
+/*     transform-style: preserve-3d;
+    perspective: 400px; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* transition-behavior: always-descrete; */
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+   /*  margin-top: -100em; */
+    font-size: .135em;
+
+    /* font-size: .9em; */
+    -webkit-font-smoothing: subpixel-antialiased;
+    animation: scrawl-scroll 35s linear forwards 2s;
+/*     transform: rotateX(75deg) translateY(30em); */
+}
+
+@keyframes scrawl-scroll {
+    0% { 
+        opacity: 1;
+        transform: rotateX(75deg) translateY(200em);
+    }
+
+    95% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        opacity: 0;
+        transform: rotateX(75deg) translateY(-100em);
+    }
+}
+
+.btn--enter {
+    position: relative;
+    height: 3em;
+    width: 10em;
+    margin-top: 10em;
+    border: 1px solid yellow;
+    outline: none;
+    color: yellow;
+    background: hsla(0, 0%, 0%, 0.75);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "News Cycle", serif;
+    opacity: 0;
+  }
+
+  @keyframes btnOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transition: opacity 0.3s ease-in-out;
+        animation: animate 2s linear;
+    }
+  }
+
+  .btn--enter:before {
+    position: absolute;
+    content: "";
+    top: -2px;
+    left: -2px;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    border-radius: 5px;
+    z-index: -1;
+    opacity: 0;
+    filter: blur(5px);
+    background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+    background: linear-gradient(in lch
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    background-size: 400%;
+    transition: opacity 0.3s ease-in-out;
+    animation: animate 20s linear infinite;
+  }
+  .btn--enter:hover:before,
+  .btn--enter:focus:before,
+  .btn--enter:focus-visible:before
+   {
+    opacity: 1;
+  }
+  .btn--enter:hover:active,
+  .btn--enter:focus:active,
+  .btn--enter:focus-visible {
+    background: none;
+  }
+  .btn--enter:hover:active:before,
+  .btn--enter:focus:active:before,
+  .btn--enter:focus-visible:active:before{
+    filter: blur(2px);
+  }
+  @keyframes animate {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+
+/* Responsive */
+  @media  (max-width: 251px) {
+    .scroll {
+      padding: 0 25em;
+      animation: scrawl-scroll 35s linear forwards;
+    }
+
+    @keyframes scrawl-scroll {
+        0% { 
+            opacity: 1;
+            transform: rotateX(75deg) translateY(240em);
+        }
+    
+        95% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+            opacity: 0;
+            transform: rotateX(75deg) translateY(-100em);
+        }
+    }    
+
+    .btn--enter {
+        height: 2em;
+        width: 8em;
+        animation: btnOpacity 500ms linear 3s forwards;
+    }
+
+    .logo {
+        height: 14%;
+    }
+  }
+
+  @media (min-width: 251px) and (max-width: 299px) {
+    .scroll {
+      padding: 0 35em;
+      animation: scrawl-scroll 35s linear forwards;
+    }
+
+    @keyframes scrawl-scroll {
+        0% { 
+            opacity: 1;
+            transform: rotateX(75deg) translateY(240em);
+        }
+    
+        95% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+            opacity: 0;
+            transform: rotateX(75deg) translateY(-100em);
+        }
+    }    
+
+    .btn--enter {
+        height: 2em;
+        width: 8em;
+        animation: btnOpacity 500ms linear 3s forwards;
+    }
+
+    .logo {
+        height: 14%;
+    }
+  }
+/* 226  - 330px */
+  @media (min-width: 300px) and (max-width: 400px) {
+  .scroll {
+    padding: 0 40em;
+    animation: scrawl-scroll 35s linear forwards;
+  }
+
+  @keyframes scrawl-scroll {
+      0% { 
+          opacity: 1;
+          transform: rotateX(75deg) translateY(220em);
+      }
+  
+      95% {
+          opacity: 1;
+      }
+      100% {
+          opacity: 1;
+          opacity: 0;
+          transform: rotateX(75deg) translateY(-100em);
+      }
+  }
+
+  .btn--enter {
+    height: 2em;
+    width: 8em;
+    animation: btnOpacity 500ms linear 3s forwards;
+}
+
+  .logo {
+    height: 20%;
+}  
+}
+
+@media (min-width: 401px) and (max-width: 499px) {
+    .scroll {
+      padding: 0 65em;
+      animation: scrawl-scroll 35s linear forwards;
+    }
+  
+    @keyframes scrawl-scroll {
+        0% { 
+            opacity: 1;
+            transform: rotateX(75deg) translateY(230em);
+        }
+    
+        95% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+            opacity: 0;
+            transform: rotateX(75deg) translateY(-100em);
+        }
+    }
+  
+    .btn--enter {
+      height: 2em;
+      width: 8em;
+      animation: btnOpacity 500ms linear 3s forwards;
+  }
+  
+    .logo {
+      height: 25%;
+  }  
+  }
+
+  @media (min-width: 500px) and (max-width: 574px) { 
+    .scroll {
+        padding: 0 75em;
+        animation: scrawl-scroll 35s linear forwards;
+      }
+    
+      @keyframes scrawl-scroll {
+          0% { 
+              opacity: 1;
+              transform: rotateX(75deg) translateY(220em);
+          }
+      
+          95% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 1;
+              opacity: 0;
+              transform: rotateX(75deg) translateY(-100em);
+          }
+      }
+    
+      .btn--enter {
+        height: 2em;
+        width: 8em;
+        animation: btnOpacity 500ms linear 3s forwards;
+    }
+    
+      .logo {
+        height: 30%;
+    }  
+  }
+
+  @media (min-width: 575px) and (max-width: 699px) { 
+    .scroll {
+        padding: 0 95em;
+        animation: scrawl-scroll 30s linear forwards;
+      }
+    
+      @keyframes scrawl-scroll {
+          0% { 
+              opacity: 1;
+              transform: rotateX(75deg) translateY(200em);
+          }
+      
+          95% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 1;
+              opacity: 0;
+              transform: rotateX(75deg) translateY(-100em);
+          }
+      }
+    
+      .btn--enter {
+        height: 2em;
+        width: 8em;
+        animation: btnOpacity 500ms linear 3s forwards;
+    }
+    
+      .logo {
+        height: 30%;
+    }  
+  }
+
+  @media (min-width: 700px) and (max-width: 899px) { 
+    .scroll {
+        padding: 0 125em;
+        animation: scrawl-scroll 30s linear forwards;
+      }
+    
+      @keyframes scrawl-scroll {
+          0% { 
+              opacity: 1;
+              transform: rotateX(75deg) translateY(220em);
+          }
+      
+          95% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 1;
+              opacity: 0;
+              transform: rotateX(75deg) translateY(-100em);
+          }
+      }
+    
+      .btn--enter {
+        height: 2em;
+        width: 8em;
+        animation: btnOpacity 500ms linear 3s forwards;
+    }
+    
+      .logo {
+        height: 30%;
+    }  
+  }
+
+  @media (min-width: 900px) and (max-width: 999px) { 
+    .scroll {
+        padding: 0 170em;
+        animation: scrawl-scroll 30s linear forwards;
+      }
+    
+      @keyframes scrawl-scroll {
+          0% { 
+              opacity: 1;
+              transform: rotateX(75deg) translateY(220em);
+          }
+      
+          95% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 1;
+              opacity: 0;
+              transform: rotateX(75deg) translateY(-100em);
+          }
+      }
+    
+      .btn--enter {
+        height: 2em;
+        width: 8em;
+        animation: btnOpacity 500ms linear 3s forwards;
+    }
+    
+      .logo {
+        height: 60%;
+    }  
+  }
+
+  @media (min-width: 1000px) and (max-width: 1100px) { 
+    .scroll {
+        padding: 0 170em;
+        animation: scrawl-scroll 30s linear forwards;
+      }
+    
+      @keyframes scrawl-scroll {
+          0% { 
+              opacity: 1;
+              transform: rotateX(75deg) translateY(200em);
+          }
+      
+          95% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 1;
+              opacity: 0;
+              transform: rotateX(75deg) translateY(-100em);
+          }
+      }
+    
+      .btn--enter {
+        height: 2em;
+        width: 8em;
+        animation: btnOpacity 500ms linear 3s forwards;
+    }
+    
+      .logo {
+        height: 70%;
+    }  
+  }
+
+
+  @media (min-width: 1250px) and (max-width: 1399px) { 
+    .scroll {
+        padding: 0 250em;
+        animation: scrawl-scroll 30s linear forwards;
+      }
+    
+      @keyframes scrawl-scroll {
+          0% { 
+              opacity: 1;
+              transform: rotateX(75deg) translateY(200em);
+          }
+      
+          95% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 1;
+              opacity: 0;
+              transform: rotateX(75deg) translateY(-100em);
+          }
+      }
+    
+      .btn--enter {
+        height: 2em;
+        width: 8em;
+        animation: btnOpacity 500ms linear 3s forwards;
+    }
+    
+      .logo {
+        height: 70%;
+    }  
+  }
+
+  @media (min-width: 1101px) and (max-width: 1249px)  { 
+    .scroll {
+        padding: 0 215em;
+        animation: scrawl-scroll 30s linear forwards;
+      }
+    
+      @keyframes scrawl-scroll {
+          0% { 
+              opacity: 1;
+              transform: rotateX(75deg) translateY(200em);
+          }
+      
+          95% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 1;
+              opacity: 0;
+              transform: rotateX(75deg) translateY(-100em);
+          }
+      }
+    
+      .btn--enter {
+        height: 2em;
+        width: 8em;
+        animation: btnOpacity 500ms linear 3s forwards;
+    }
+    
+      .logo {
+        height: 70%;
+    }  
+  }
+
+  @media (min-width: 1250px) and (max-width: 1399px) { 
+    .scroll {
+        padding: 0 250em;
+        animation: scrawl-scroll 30s linear forwards;
+      }
+    
+      @keyframes scrawl-scroll {
+          0% { 
+              opacity: 1;
+              transform: rotateX(75deg) translateY(200em);
+          }
+      
+          95% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 1;
+              opacity: 0;
+              transform: rotateX(75deg) translateY(-100em);
+          }
+      }
+    
+      .btn--enter {
+        height: 2em;
+        width: 8em;
+        animation: btnOpacity 500ms linear 3s forwards;
+    }
+    
+      .logo {
+        height: 70%;
+    }  
+  }
+
+  @media (min-width: 1101px) and (max-width: 1249px)  { 
+    .scroll {
+        padding: 0 215em;
+        animation: scrawl-scroll 30s linear forwards;
+      }
+    
+      @keyframes scrawl-scroll {
+          0% { 
+              opacity: 1;
+              transform: rotateX(75deg) translateY(200em);
+          }
+      
+          95% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 1;
+              opacity: 0;
+              transform: rotateX(75deg) translateY(-100em);
+          }
+      }
+    
+      .btn--enter {
+        height: 2em;
+        width: 8em;
+        animation: btnOpacity 500ms linear 3s forwards;
+    }
+    
+      .logo {
+        height: 70%;
+    }  
+  }
+
+
+  @media (min-width: 1250px) and (max-width: 1400px) { 
+    .scroll {
+        padding: 0 250em;
+        animation: scrawl-scroll 30s linear forwards;
+      }
+    
+      @keyframes scrawl-scroll {
+          0% { 
+              opacity: 1;
+              transform: rotateX(75deg) translateY(200em);
+          }
+      
+          95% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 1;
+              opacity: 0;
+              transform: rotateX(75deg) translateY(-100em);
+          }
+      }
+    
+      .btn--enter {
+        height: 2em;
+        width: 8em;
+        animation: btnOpacity 500ms linear 3s forwards;
+    }
+    
+      .logo {
+        height: 70%;
+    }  
+  }
+
+  @media (min-width: 1401px) and (max-width: 1574px)  { 
+    .scroll {
+        padding: 0 290em;
+        animation: scrawl-scroll 30s linear forwards;
+      }
+    
+      @keyframes scrawl-scroll {
+          0% { 
+              opacity: 1;
+              transform: rotateX(75deg) translateY(200em);
+          }
+      
+          95% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 1;
+              opacity: 0;
+              transform: rotateX(75deg) translateY(-100em);
+          }
+      }
+    
+      .btn--enter {
+        height: 2em;
+        width: 8em;
+        animation: btnOpacity 500ms linear 3s forwards;
+    }
+    
+      .logo {
+        height: 70%;
+    }  
+  }
+
+  @media (min-width: 1575px) and (max-width: 1799px) { 
+    .scroll {
+        padding: 0 330em;
+        animation: scrawl-scroll 30s linear forwards;
+      }
+    
+      @keyframes scrawl-scroll {
+          0% { 
+              opacity: 1;
+              transform: rotateX(75deg) translateY(200em);
+          }
+      
+          95% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 1;
+              opacity: 0;
+              transform: rotateX(75deg) translateY(-100em);
+          }
+      }
+    
+      .btn--enter {
+        height: 2em;
+        width: 8em;
+        animation: btnOpacity 500ms linear 3s forwards;
+    }
+    
+      .logo {
+        height: 70%;
+    }  
+  }
+
+  @media (min-width: 1800px) { 
+    .scroll {
+        padding: 0 370em;
+        animation: scrawl-scroll 30s linear forwards;
+      }
+    
+      @keyframes scrawl-scroll {
+          0% { 
+              opacity: 1;
+              transform: rotateX(75deg) translateY(200em);
+          }
+      
+          95% {
+              opacity: 1;
+          }
+          100% {
+              opacity: 1;
+              opacity: 0;
+              transform: rotateX(75deg) translateY(-100em);
+          }
+      }
+    
+      .btn--enter {
+        height: 2em;
+        width: 8em;
+        animation: btnOpacity 500ms linear 3s forwards;
+    }
+    
+      .logo {
+        height: 70%;
+    }  
+  }

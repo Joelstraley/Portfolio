@@ -61,7 +61,7 @@ function About() {
 							<br />
 							<br />
 							<div className="new-line"></div>
-							I'm a Fullstack Web Developer with 1.5 years of professional
+							I'm a Fullstack Web Developer with 3 years of professional
 							experience using the frameworks React and Laravel with Javascript
 							and PHP to write, update and deploy code to production.
 							<div className="new-line"></div>

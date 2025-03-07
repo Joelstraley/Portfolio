@@ -1,9 +1,22 @@
-import React, { Component } from 'react'
-import js from '../../photos/javascript_logo.png'
-import { Link } from 'react-router-dom'
+import { useState } from 'react';
+import logo from '../../photos/javascript_logo.png'
 
-export default class Navbar extends Component {
-  render() {
+export default function Navbar() {
+  const [mirrorToggle, setMirrorToggle] = useState(true)
+
+  const changeMirror = () => {
+    const container = document.getElementsByClassName('container')
+
+    if (mirrorToggle) {
+      container[0].style = 'transform: rotateY(180deg)';
+      
+      setMirrorToggle(false);
+    } else {
+      container[0].style = 'transform: rotateY(0deg)';
+      setMirrorToggle(true)
+    }
+  } 
+
     return (
       <div className="nav-container">
         <div className="dropdown navbar-brand" id="header">
@@ -37,14 +50,17 @@ export default class Navbar extends Component {
           <a
             id="header"
             className="navbar-brand header"
-            href="https://networthpost.org/net-worth/joel-straley-net-worth/"
+            href="https://www.youtube.com/@JoelStraley/videos"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={js} alt={js} className="headerImg"></img>Joel Straley
+            <img src={logo} alt={logo} className="headerImg"></img>Joel Straley
           </a>
-    
+          { mirrorToggle ?
+            <p className="nav--mirror_btn" onClick={() => changeMirror()}>MIRROR</p>
+            : 
+            <p className="nav--mirror_btn" onClick={() => changeMirror()}>RORRIM</p>
+          }
       </div>
     )
-  }
 }
