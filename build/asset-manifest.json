@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.13c385c7.css",
-    "main.js": "/static/js/main.4b0cd737.js",
+    "main.css": "/static/css/main.423f4368.css",
+    "main.js": "/static/js/main.92708dfe.js",
     "static/js/787.155c01e6.chunk.js": "/static/js/787.155c01e6.chunk.js",
     "static/media/DALL·E 2023-02-14 17.17.25 - Joel Straley.png": "/static/media/DALL·E 2023-02-14 17.17.25 - Joel Straley.f4e13545f51cfd74b777.png",
     "static/media/DALL·E 2023-02-14 17.17.30 - Joel Straley.png": "/static/media/DALL·E 2023-02-14 17.17.30 - Joel Straley.c1f975ce35ff711e0928.png",
@@ -19,12 +19,12 @@
     "static/media/headshot-cursor-new.png": "/static/media/headshot-cursor-new.6f864c34becf74b23b5a.png",
     "static/media/javascript_logo.png": "/static/media/javascript_logo.f0ad5fabdfb6e145b2c7.png",
     "index.html": "/index.html",
-    "main.13c385c7.css.map": "/static/css/main.13c385c7.css.map",
-    "main.4b0cd737.js.map": "/static/js/main.4b0cd737.js.map",
+    "main.423f4368.css.map": "/static/css/main.423f4368.css.map",
+    "main.92708dfe.js.map": "/static/js/main.92708dfe.js.map",
     "787.155c01e6.chunk.js.map": "/static/js/787.155c01e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13c385c7.css",
-    "static/js/main.4b0cd737.js"
+    "static/css/main.423f4368.css",
+    "static/js/main.92708dfe.js"
   ]
 }
